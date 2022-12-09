@@ -17,11 +17,11 @@ const About = () => {
       <Heading textAlign="center" color="#48BB78" mt={59}>
         About Me
       </Heading>
-      <Box w="60%" m="auto" mt="10">
+      <Box w="80%" m="auto" mt="10">
         <List spacing={3}>
           <ListItem fontSize="20px" fontWeight="20px" lineHeight="2">
             <ListIcon as={CheckCircleIcon} color="green.500" />
-            As a MERN stack developer, I have proficient in MongoDB, Express,
+            As a MERN stack developer, I have proficiency in MongoDB, Express,
             React, and Node.js
           </ListItem>
           <ListItem fontSize="20px" fontWeight="20px" lineHeight="2">

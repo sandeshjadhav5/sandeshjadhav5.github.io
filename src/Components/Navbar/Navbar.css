@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.logo {
-  font-size: 2rem;
-}
-
 .navbar-light {
   display: flex;
   width: 100%;

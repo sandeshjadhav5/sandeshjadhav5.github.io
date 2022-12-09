@@ -1,4 +1,5 @@
-import { Button } from "@chakra-ui/react";
+import { Button, Text, Image } from "@chakra-ui/react";
+import logo1 from "../Navbar/sandesh_logo.png";
 import React, { useState } from "react";
 import { useColorMode, useColorModeValue } from "@chakra-ui/react";
 // import { Link } from "react-router-dom";
@@ -20,7 +21,7 @@ const Navbar = () => {
   };
   return (
     <div className={mode ? "navbar-light" : "navbar-dark"}>
-      <h3 className="logo">SANDESH</h3>
+      <Image src={logo1} alt="logo" width={{ base: "10" }} />
       <ul
         className={isHamburger ? "hamburger" : "nav-links"}
         onClick={() => {

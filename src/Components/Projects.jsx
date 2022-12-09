@@ -3,8 +3,9 @@ import { Heading } from "@chakra-ui/react";
 const Projects = () => {
   return (
     <div id="projects">
-      Projects
-      <Heading>PROJECTS SECTION</Heading>
+      <Heading mt="95" m="auto" textAlign="center">
+        Projects
+      </Heading>
     </div>
   );
 };
