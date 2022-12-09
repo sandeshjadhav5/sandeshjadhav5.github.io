@@ -8,7 +8,7 @@ import redux from "../Images/redux.svg";
 import typescript from "../Images/Typescript_logo_2020.svg.png";
 import mongodb from "../Images/mongodb.svg";
 import nodeJS from "../Images/node_js.svg";
-import express from "../Images/express.svg";
+import express from "../Images/expressJSnew.png";
 import git from "../Images/git.svg";
 import chakra from "../Images/chakraUI.jpg";
 import cypress from "../Images/cypress.svg";
