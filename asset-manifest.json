@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ccfa2e5.css",
-    "main.js": "/static/js/main.106710aa.js",
+    "main.css": "/static/css/main.9eb21254.css",
+    "main.js": "/static/js/main.7e8c1095.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/sandy2.png": "/static/media/sandy2.249051e5ed17958d406e.png",
+    "static/media/sandesh_logo.png": "/static/media/sandesh_logo.5dcb1272ff65a478e5dd.png",
+    "static/media/mongodb.svg": "/static/media/mongodb.153b7b440efa05666029a47da0d0baa0.svg",
+    "static/media/chakraUI.jpg": "/static/media/chakraUI.22937fcd5af2100437bd.jpg",
+    "static/media/Typescript_logo_2020.svg.png": "/static/media/Typescript_logo_2020.svg.415b406109dfe385d86c.png",
+    "static/media/react.svg": "/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/node_js.svg": "/static/media/node_js.27d0e4077d4d9a98207386bb92245b6a.svg",
+    "static/media/git.svg": "/static/media/git.502148275cca62f4c99044cd1bb29f7d.svg",
+    "static/media/cypress.svg": "/static/media/cypress.071c7e709ef3dbea48931ab4d60f4e3b.svg",
+    "static/media/redux.svg": "/static/media/redux.a95675408ae17c456965e2f09376c31a.svg",
     "static/media/html-5.svg": "/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg",
+    "static/media/css-3.svg": "/static/media/css-3.e7a9de36d9335d92932e93eb3b32deb9.svg",
+    "static/media/javascript.svg": "/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
     "index.html": "/index.html",
-    "main.0ccfa2e5.css.map": "/static/css/main.0ccfa2e5.css.map",
-    "main.106710aa.js.map": "/static/js/main.106710aa.js.map",
+    "main.9eb21254.css.map": "/static/css/main.9eb21254.css.map",
+    "main.7e8c1095.js.map": "/static/js/main.7e8c1095.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ccfa2e5.css",
-    "static/js/main.106710aa.js"
+    "static/css/main.9eb21254.css",
+    "static/js/main.7e8c1095.js"
   ]
 }
