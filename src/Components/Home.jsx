@@ -3,14 +3,7 @@ import React from "react";
 import profileImg from "../Images/sandy2.png";
 import { Link } from "react-router-dom";
 import { extendTheme } from "@chakra-ui/react";
-// const breakpoints = {
-//   sm: "320px",
-//   md: "768px",
-//   lg: "960px",
-//   xl: "1200px",
-//   "2xl": "1536px",
-// };
-//const theme = extendTheme({ breakpoints });
+
 const Home = () => {
   return (
     <div id="home">
@@ -50,7 +43,7 @@ const Home = () => {
             fontSize={{ xl: "20", lg: "20", md: "20", sm: "15", base: "12.5" }}
             textAlign={{ sm: "center", md: "left", base: "center" }}
           >
-            Iam a Full Stack Web Devloper based in India.
+            I'am a Full Stack Web Devloper based in India.
           </Text>
         </Box>
       </Box>

@@ -21,7 +21,9 @@ const Navbar = () => {
   };
   return (
     <div className={mode ? "navbar-light" : "navbar-dark"}>
-      <Image src={logo1} alt="logo" width={{ base: "10" }} />
+      <Text fontSize={32}>
+        SAN<span style={{ color: "red", fontSize: "2rem" }}>DESH</span>
+      </Text>
       <ul
         className={isHamburger ? "hamburger" : "nav-links"}
         onClick={() => {

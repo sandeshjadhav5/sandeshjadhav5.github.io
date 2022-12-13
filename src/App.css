@@ -2,18 +2,75 @@
 .profileImg {
   width: 300px;
 }
-body {
-  background-color: #fafafa;
-}
 
-.skillsLogo:hover {
+/* .skillsCSS {
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0 0 5px 5px magenta;
+}
+.skillsDiv :nth-child(1) {
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0 0 5px 5px red;
+}
+.skillsDiv :nth-child(3) {
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0 0 5px 5px maroon;
+}
+.skillsDiv :nth-child(4) {
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0 0 5px 5px red;
+}
+.skillsDiv :nth-child(5) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px green;
+}
+.skillsDiv :nth-child(6) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px #6495ed;
+}
+.skillsDiv :nth-child(7) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px rgb(87, 87, 179);
+}
+.skillsDiv :nth-child(8) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px yellow;
+}
+.skillsDiv :nth-child(9) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px rebeccapurple;
+}
+.skillsDiv :nth-child(10) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px cyan;
+}
+.skillsDiv :nth-child(11) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px orange;
+}
+.skillsDiv :nth-child(12) {
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 0 5px 5px brown;
+} */
+.skillsLogo {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.linkFont:hover {
+  color: gray;
+}
+/*
+.skillsLogo > img:hover {
   animation: scale-up-center 1s;
+  overflow: auto;
 }
 @keyframes scale-up-center {
   0% {
     transform: scale(0.5);
   }
-  100% {
+  50% {
     transform: scale(1);
   }
-}
+  100% {
+    transform: scale(3);
+  }
+} */
