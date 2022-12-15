@@ -1,6 +1,6 @@
 import { Heading, Spacer, Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import profileImg from "../Images/sandy2.png";
+import profileImg from "../Images/sandyNewImg.png";
 import { Link } from "react-router-dom";
 import { extendTheme } from "@chakra-ui/react";
 
