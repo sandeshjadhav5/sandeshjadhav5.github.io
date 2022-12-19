@@ -35,7 +35,7 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg"
+            src="https://cdn.cdnlogo.com/logos/h/84/html.svg"
             m="auto"
             w="100px"
             h="50px"
@@ -55,7 +55,7 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/css-3.e7a9de36d9335d92932e93eb3b32deb9.svg"
+            src="https://static.cdnlogo.com/logos/c/18/css.svg"
             m="auto"
             w="72px"
             h="50px"
@@ -75,7 +75,7 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg"
+            src="https://static.cdnlogo.com/logos/j/44/javascript.svg"
             m="auto"
             w="72px"
             h="50px"
@@ -95,7 +95,7 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/react.e27571eaed899c642345e71163624ef9.svg"
+            src="https://static.cdnlogo.com/logos/r/63/react.svg"
             m="auto"
             w="82px"
             h="50px"
@@ -115,7 +115,7 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/redux.a95675408ae17c456965e2f09376c31a.svg"
+            src="https://static.cdnlogo.com/logos/r/37/redux.svg"
             m="auto"
             w="82px"
             h="50px"
@@ -135,7 +135,7 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/mongodb.153b7b440efa05666029a47da0d0baa0.svg"
+            src="https://static.cdnlogo.com/logos/m/25/mongodb.svg"
             m="auto"
             w="80px"
             h="50px"
@@ -176,7 +176,7 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/node_js.27d0e4077d4d9a98207386bb92245b6a.svg"
+            src="https://static.cdnlogo.com/logos/n/79/node-js.svg"
             m="auto"
             w="80px"
             h="50px"
@@ -237,9 +237,9 @@ const Skills = () => {
           className="skillsLogo"
         >
           <Image
-            src="https://sandeshjadhav5.github.io/static/media/cypress.071c7e709ef3dbea48931ab4d60f4e3b.svg"
+            src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2022/04/cypress.png?fit=364%2C364&ssl=1"
             m="auto"
-            w="80px"
+            w="70px"
             h="50px"
           />
           <Text mt={5} fontWeight={600}>
