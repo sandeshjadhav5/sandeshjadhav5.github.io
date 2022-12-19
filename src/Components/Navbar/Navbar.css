@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 .navbar-light {
   display: flex;
@@ -13,7 +13,6 @@
   color: #1a202c;
   position: fixed;
   height: 3.5rem;
-  padding: 0 1rem 0 1rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .navbar-dark {
@@ -25,7 +24,7 @@
   color: white;
   position: fixed;
   height: 3.5rem;
-  padding: 0 1rem 0 1rem;
+
   /* font-family: sans-serif; */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -53,7 +52,21 @@
 .Home:hover {
   color: maroon;
 }
-
+.AboutMe:hover {
+  color: maroon;
+}
+.Skills:hover {
+  color: maroon;
+}
+.Projects:hover {
+  color: maroon;
+}
+.Contact:hover {
+  color: maroon;
+}
+.Resume:hover {
+  color: green;
+}
 .mobile-menu-icon {
   display: none;
 }
@@ -77,7 +90,7 @@
     position: absolute;
     display: block;
     /* list-style: none; */
-    background-color: bisque;
+    background-color: #edf2f8;
     left: 0;
     top: 3.5rem;
     transition: all 0.5s ease-out;
@@ -90,7 +103,10 @@
   .Contact,
   .Resume {
     display: block;
+    text-transform: uppercase;
     color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
     text-align: center;
     padding: 15px;
     width: 100%;

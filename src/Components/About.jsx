@@ -29,21 +29,22 @@ const About = () => {
             Skilled in building dynamic and efficient web applications.
           </ListItem>
           <ListItem fontSize="20px" fontWeight="20px" lineHeight="2">
-            <ListIcon as={CheckCircleIcon} color="green.500" />I am skilled in
-            Front-end and Back-end Development
-          </ListItem>
-          <ListItem fontSize="20px" fontWeight="20px" lineHeight="2">
             <ListIcon as={CheckCircleIcon} color="green.500" />
-            Have a strong understanding of the full web development cycle, from
-            planning and design to deployment and maintenance.
+            skilled in Front-end and Back-end Development
           </ListItem>
           <ListItem fontSize="20px" fontWeight="20px" lineHeight="2">
-            <ListIcon as={CheckCircleIcon} color="green.500" />I am able to work
+            <ListIcon as={CheckCircleIcon} color="green.500" />I Have a strong
+            understanding of the full web development cycle, from planning and
+            design to deployment and maintenance.
+          </ListItem>
+          <ListItem fontSize="20px" fontWeight="20px" lineHeight="2">
+            <ListIcon as={CheckCircleIcon} color="green.500" /> Able to work
             independently and as part of a team
           </ListItem>
           <ListItem fontSize="20px" fontWeight="20px" lineHeight="2">
-            <ListIcon as={CheckCircleIcon} color="green.500" />I am always
-            looking for ways to improve and expand my knowledge and skills.
+            <ListIcon as={CheckCircleIcon} color="green.500" />
+            Always looking for ways to improve and expand my knowledge and
+            skills.
           </ListItem>
         </List>
       </Box>

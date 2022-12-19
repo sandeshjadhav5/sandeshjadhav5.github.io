@@ -1,18 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
-import html5 from "../Images/html-5.svg";
-import css3 from "../Images/css-3.svg";
-import javaScript from "../Images/javascript.svg";
-import react from "../Images/react.svg";
-import redux from "../Images/redux.svg";
-import typescript from "../Images/Typescript_logo_2020.svg.png";
-import mongodb from "../Images/mongodb.svg";
-import nodeJS from "../Images/node_js.svg";
-import express from "../Images/expressJSnew.png";
-import git from "../Images/git.svg";
-import chakra from "../Images/chakraUI.jpg";
-import cypress from "../Images/cypress.svg";
+import {
+  Grid,
+  Box,
+  GridItem,
+  Heading,
+  Image,
+  SimpleGrid,
+  Text,
+} from "@chakra-ui/react";
 
 const Skills = () => {
   return (
@@ -20,16 +16,15 @@ const Skills = () => {
       <Heading textAlign="center" mt="85" mb="25" color="#48BB78">
         Skills
       </Heading>
-      <Grid
+      <SimpleGrid
+        minChildWidth="140px"
         w="80%"
         m="auto"
-        templateRows="repeat(3, 1fr)"
-        templateColumns="repeat(4, 1fr)"
         gap={6}
         mb="50"
         className="skillsDiv"
       >
-        <GridItem
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -39,12 +34,17 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={html5} m="auto" w="100px" h="50px" />
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg"
+            m="auto"
+            w="100px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             HTML
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -54,12 +54,37 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={css3} m="auto" w="72px" h="50px" />
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/css-3.e7a9de36d9335d92932e93eb3b32deb9.svg"
+            m="auto"
+            w="72px"
+            h="50px"
+          />
+          <Text mt={5} fontWeight={600}>
+            CSS
+          </Text>
+        </Box>
+        <Box
+          colSpan={1}
+          w="100%"
+          m="auto"
+          rounded="md"
+          alignItems="center"
+          justifyContent="center"
+          textAlign="center"
+          className="skillsLogo"
+        >
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg"
+            m="auto"
+            w="72px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             JavaScript
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -69,27 +94,17 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={javaScript} m="auto" w="72px" h="50px" />
-          <Text mt={5} fontWeight={600}>
-            JavaScript
-          </Text>
-        </GridItem>
-        <GridItem
-          colSpan={1}
-          w="100%"
-          m="auto"
-          rounded="md"
-          alignItems="center"
-          justifyContent="center"
-          textAlign="center"
-          className="skillsLogo"
-        >
-          <Image src={react} m="auto" w="82px" h="50px" />
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/react.e27571eaed899c642345e71163624ef9.svg"
+            m="auto"
+            w="82px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             React
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -99,12 +114,17 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={redux} m="auto" w="82px" h="50px" />
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/redux.a95675408ae17c456965e2f09376c31a.svg"
+            m="auto"
+            w="82px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             Redux
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -114,12 +134,17 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={mongodb} m="auto" w="80px" h="50px" />
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/mongodb.153b7b440efa05666029a47da0d0baa0.svg"
+            m="auto"
+            w="80px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             MongoDB
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -129,13 +154,18 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={express} m="auto" w="80px" h="50px" />
+          <Image
+            src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/express.svg"
+            m="auto"
+            w="80px"
+            h="50px"
+          />
 
           <Text mt={5} fontWeight={600}>
             Express
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -145,12 +175,17 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={nodeJS} m="auto" w="80px" h="50px" />
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/node_js.27d0e4077d4d9a98207386bb92245b6a.svg"
+            m="auto"
+            w="80px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             Node JS
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -160,12 +195,17 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={git} m="auto" w="80px" h="50px" />
+          <Image
+            src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+            m="auto"
+            w="80px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             Git
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -175,13 +215,18 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={typescript} m="auto" w="80px" h="50px" />
+          <Image
+            src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+            m="auto"
+            w="60px"
+            h="50px"
+          />
 
           <Text mt={5} fontWeight={600}>
             TypeScript
           </Text>
-        </GridItem>
-        <GridItem
+        </Box>
+        <Box
           colSpan={1}
           w="100%"
           m="auto"
@@ -191,13 +236,17 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={cypress} m="auto" w="80px" h="50px" />
+          <Image
+            src="https://sandeshjadhav5.github.io/static/media/cypress.071c7e709ef3dbea48931ab4d60f4e3b.svg"
+            m="auto"
+            w="80px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             Cypress
           </Text>
-        </GridItem>
-        <GridItem
-          colSpan={1}
+        </Box>
+        <Box
           w="100%"
           m="auto"
           rounded="md"
@@ -206,12 +255,55 @@ const Skills = () => {
           textAlign="center"
           className="skillsLogo"
         >
-          <Image src={chakra} m="auto" w="80px" h="50px" />
+          <Image
+            src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
+            m="auto"
+            w="60px"
+            h="50px"
+          />
           <Text mt={5} fontWeight={600}>
             Chakra UI
           </Text>
-        </GridItem>
-      </Grid>
+        </Box>
+        <Box
+          w="100%"
+          m="auto"
+          rounded="md"
+          alignItems="center"
+          justifyContent="center"
+          textAlign="center"
+          className="skillsLogo"
+        >
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png?20210507000024"
+            m="auto"
+            w="60px"
+            h="50px"
+          />
+          <Text mt={5} fontWeight={600}>
+            BootStrap
+          </Text>
+        </Box>
+        <Box
+          w="100%"
+          m="auto"
+          rounded="md"
+          alignItems="center"
+          justifyContent="center"
+          textAlign="center"
+          className="skillsLogo"
+        >
+          <Image
+            src="https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png"
+            m="auto"
+            w="60px"
+            h="50px"
+          />
+          <Text mt={5} fontWeight={600}>
+            npm
+          </Text>
+        </Box>
+      </SimpleGrid>
       {/* <Image src={html5} /> */}
     </div>
   );

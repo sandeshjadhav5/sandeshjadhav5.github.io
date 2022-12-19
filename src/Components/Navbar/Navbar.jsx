@@ -1,6 +1,7 @@
 import { Button, Text, Image } from "@chakra-ui/react";
 import logo1 from "../Navbar/sandesh_logo.png";
 import React, { useState } from "react";
+// import ResumeFile from "./Sandesh-jadhav-5.pdf";
 import { useColorMode, useColorModeValue } from "@chakra-ui/react";
 // import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
@@ -21,7 +22,7 @@ const Navbar = () => {
   };
   return (
     <div className={mode ? "navbar-light" : "navbar-dark"}>
-      <Text fontSize={32}>
+      <Text fontSize={32} ml="2">
         SAN<span style={{ color: "red", fontSize: "2rem" }}>DESH</span>
       </Text>
       <ul
@@ -91,7 +92,13 @@ const Navbar = () => {
           Contact
         </Link>
         {/* to="/resume" */}
-        <Link className="Resume">Resume</Link>
+        <a
+          className="Resume"
+          href="https://drive.google.com/file/d/1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C/view?usp=share_link"
+          target="_blank"
+        >
+          Resume
+        </a>
       </ul>
       <button
         className="mobile-menu-icon"
@@ -102,6 +109,7 @@ const Navbar = () => {
       <Button
         className="colorModeSwap"
         size="sm"
+        mr="5"
         onClick={() => {
           changeMode();
         }}
