@@ -1,4 +1,8 @@
 import React from "react";
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 import nykaa from "../Images/nykaaProject.png";
 import sephora from "../Images/sephora.png";
 import myntra from "../Images/myntra.png";
@@ -18,9 +22,21 @@ import {
 import { Link } from "react-router-dom";
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div id="projects">
-      <Heading mt="95" m="auto" mb="30" textAlign="center" color="#48BB78">
+      <Heading
+        mt="95"
+        m="auto"
+        mb="30"
+        textAlign="center"
+        color="#48BB78"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600"
+      >
         Projects
       </Heading>
       <SimpleGrid
@@ -31,7 +47,14 @@ const Projects = () => {
         fontWeight="bold"
       >
         <Box m="auto">
-          <Box borderWidth="2px" borderRadius="lg" overflow="hidden">
+          <Box
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600"
+          >
             <Image src={bathBodyWorks} alt="bathBodyWorks" />
 
             <Box p="4">
@@ -96,7 +119,14 @@ const Projects = () => {
           </Box>
         </Box>
         <Box m="auto">
-          <Box borderWidth="2px" borderRadius="lg" overflow="hidden">
+          <Box
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600"
+          >
             <Image src={nykaa} alt="nykaa" />
 
             <Box p="4">
@@ -160,7 +190,14 @@ const Projects = () => {
           </Box>
         </Box>
         <Box m="auto">
-          <Box borderWidth="2px" borderRadius="lg" overflow="hidden">
+          <Box
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600"
+          >
             <Image src={myntra} alt="myntraa" />
 
             <Box p="4">
@@ -219,7 +256,14 @@ const Projects = () => {
           </Box>
         </Box>
         <Box m="auto">
-          <Box borderWidth="2px" borderRadius="lg" overflow="hidden">
+          <Box
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600"
+          >
             <Image src={youtubeClone} alt="nykaa" />
 
             <Box p="4">
@@ -278,7 +322,14 @@ const Projects = () => {
           </Box>
         </Box>
         <Box m="auto">
-          <Box borderWidth="2px" borderRadius="lg" overflow="hidden">
+          <Box
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600"
+          >
             <Image src={sephora} alt="nykaa" />
 
             <Box p="4">

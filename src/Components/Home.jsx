@@ -1,10 +1,15 @@
 import { Heading, Spacer, Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import { useEffect } from "react";
 import profileImg from "../Images/sandyNewImg.png";
 import { Link } from "react-router-dom";
 import { extendTheme } from "@chakra-ui/react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div id="home">
       <Spacer h={55} />
@@ -25,7 +30,7 @@ const Home = () => {
             color="#E53E3E"
             textAlign={{ sm: "center", md: "left", base: "center" }}
           >
-            Hii, I'am Sandesh Jadhav
+            Hii, I Am Sandesh Jadhav
           </Text>
           <Text
             mt={1}
@@ -43,7 +48,7 @@ const Home = () => {
             fontSize={{ xl: "20", lg: "20", md: "20", sm: "15", base: "12.5" }}
             textAlign={{ sm: "center", md: "left", base: "center" }}
           >
-            I'am a Full Stack Web Devloper based in India.
+            Full Stack Web Devloper based in India.
           </Text>
         </Box>
       </Box>

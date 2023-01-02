@@ -1,4 +1,8 @@
 import "./App.css";
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -9,6 +13,9 @@ import GitHubCalendar from "react-github-calendar";
 import { Routes, Route } from "react-router-dom";
 import { Spacer, Box, Heading, Image } from "@chakra-ui/react";
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <Navbar />
@@ -17,13 +24,26 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Box w="60%" m="auto" mt="20">
+      <Box
+        w="60%"
+        m="auto"
+        mt="20"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600"
+      >
         <Heading textAlign="center" mt="85" mb="25" color="#38B2AC">
           GitHub Calender
         </Heading>
         <GitHubCalendar username="sandeshjadhav5" />
       </Box>
-      <Box w="80%" m="auto">
+      <Box
+        w="80%"
+        m="auto"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600"
+      >
         <Heading textAlign="center" mt="35" mb="25" color="#38B2AC">
           GitHub Stats
         </Heading>

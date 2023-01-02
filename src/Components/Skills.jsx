@@ -1,5 +1,9 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import {
   Grid,
   Box,
@@ -11,9 +15,20 @@ import {
 } from "@chakra-ui/react";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div id="skills">
-      <Heading textAlign="center" mt="85" mb="25" color="#48BB78">
+      <Heading
+        textAlign="center"
+        mt="85"
+        mb="25"
+        color="#48BB78"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600"
+      >
         Skills
       </Heading>
       <SimpleGrid
@@ -25,6 +40,9 @@ const Skills = () => {
         className="skillsDiv"
       >
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -45,6 +63,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -65,6 +86,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -85,6 +109,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -105,6 +132,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -125,6 +155,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -145,6 +178,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -166,6 +202,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -186,6 +225,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -206,6 +248,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -227,6 +272,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           colSpan={1}
           w="100%"
           m="auto"
@@ -247,6 +295,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           w="100%"
           m="auto"
           rounded="md"
@@ -266,6 +317,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           w="100%"
           m="auto"
           rounded="md"
@@ -285,6 +339,9 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
           w="100%"
           m="auto"
           rounded="md"

@@ -13,6 +13,7 @@
   color: #1a202c;
   position: fixed;
   height: 3.5rem;
+  z-index: 1000;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .navbar-dark {
@@ -23,6 +24,7 @@
   background-color: #1a202c;
   color: white;
   position: fixed;
+  z-index: 1000;
   height: 3.5rem;
 
   /* font-family: sans-serif; */
