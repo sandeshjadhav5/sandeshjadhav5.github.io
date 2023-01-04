@@ -18,7 +18,7 @@ const Home = () => {
           <Image
             borderRadius="lg"
             width={{ lg: "450px", md: "400px" }}
-            src="https://sandeshjadhav5.github.io/static/media/sandyNewImg.db9d1db5e6aa4b8ed921.png"
+            src={profileImg}
             alt="Sandesh Jadhav"
           />
         </Box>
