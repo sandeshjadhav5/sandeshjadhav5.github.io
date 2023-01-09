@@ -1,14 +1,24 @@
-import { Heading, Spacer, Box, Image, Text } from "@chakra-ui/react";
+import { Heading, Spacer, Box, Image, Text, Button } from "@chakra-ui/react";
 import React from "react";
-import { useEffect } from "react";
+import { init } from "ityped";
+import { useEffect, useRef } from "react";
 import profileImg from "../Images/sandyNewImg.png";
 import { Link } from "react-router-dom";
 import { extendTheme } from "@chakra-ui/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Home = () => {
+  const textRef = useRef();
   useEffect(() => {
     AOS.init();
+  }, []);
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: true,
+      backDelay: 2000,
+      backSpeed: 70,
+      strings: ["Full Stack Developer", "Problem Solver"],
+    });
   }, []);
   return (
     <div id="home">
@@ -30,7 +40,7 @@ const Home = () => {
             color="#E53E3E"
             textAlign={{ sm: "center", md: "left", base: "center" }}
           >
-            Hii, I Am Sandesh Jadhav
+            Hi, I Am Sandesh Jadhav
           </Text>
           <Text
             mt={1}
@@ -42,14 +52,31 @@ const Home = () => {
           >
             Full Stack Developer
           </Text>
-          <Text
+          <Box>
+            <Text
+              mt={2}
+              color="#4A5568"
+              fontWeight="semibold"
+              fontSize={{
+                xl: "25",
+                lg: "25",
+                md: "25",
+                sm: "20",
+                base: "15",
+              }}
+              textAlign={{ sm: "center", md: "left", base: "center" }}
+            >
+              I'm a <span style={{ color: "#E53E3E" }} ref={textRef}></span>
+            </Text>
+          </Box>
+          {/* <Text
             mt={2}
             color="gray.500"
             fontSize={{ xl: "20", lg: "20", md: "20", sm: "15", base: "12.5" }}
             textAlign={{ sm: "center", md: "left", base: "center" }}
           >
             Full Stack Web Devloper based in India.
-          </Text>
+          </Text> */}
         </Box>
       </Box>
     </div>

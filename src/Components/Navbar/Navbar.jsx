@@ -1,9 +1,7 @@
 import { Button, Text, Image } from "@chakra-ui/react";
 import logo1 from "../Navbar/sandesh_logo.png";
 import React, { useState } from "react";
-// import ResumeFile from "./Sandesh-jadhav-5.pdf";
 import { useColorMode, useColorModeValue } from "@chakra-ui/react";
-// import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import { Link } from "react-scroll";
 import { Icon } from "@chakra-ui/react";
@@ -22,7 +20,7 @@ const Navbar = () => {
   };
   return (
     <div className={mode ? "navbar-light" : "navbar-dark"}>
-      <Text fontSize={32} ml="2">
+      <Text fontSize={32} ml="5">
         SAN<span style={{ color: "red", fontSize: "2rem" }}>DESH</span>
       </Text>
       <ul

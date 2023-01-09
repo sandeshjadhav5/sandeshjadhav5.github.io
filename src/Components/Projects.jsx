@@ -96,8 +96,8 @@ const Projects = () => {
                 Rest API
               </Badge>
             </Box>
-            <Box display="flex" justifyContent="space-evenly" mt="5">
-              <Box borderRadius={10} p={2}>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://bathbodyworksbymasai.netlify.app/"
                   target={"_blank"}
@@ -106,7 +106,7 @@ const Projects = () => {
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
-              <Box borderRadius={10} p={2}>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://github.com/sandeshjadhav5/careless-tiger-9091"
                   target="_blank"
@@ -167,8 +167,8 @@ const Projects = () => {
                 Rest API
               </Badge>
             </Box>
-            <Box display="flex" justifyContent="space-evenly" mt="5">
-              <Box borderRadius={10} p={2}>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://nykaawebsitebysandesh.netlify.app/"
                   target={"_blank"}
@@ -177,7 +177,7 @@ const Projects = () => {
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
-              <Box borderRadius={10} p={2}>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://github.com/sandeshjadhav5/choice-rice-2961/tree/main/nykaa-clone"
                   target="_blank"
@@ -236,14 +236,14 @@ const Projects = () => {
                 CSS
               </Badge>
             </Box>
-            <Box display="flex" justifyContent="space-evenly" mt="5">
-              <Box borderRadius={10} p={2}>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a href="https://myntraclonemasai.netlify.app/" target="_blank">
                   Deployed Link
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
-              <Box borderRadius={10} p={2}>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://github.com/sandeshjadhav5/exotic-tail-7975"
                   target="_blank"
@@ -302,14 +302,14 @@ const Projects = () => {
                 CSS
               </Badge>
             </Box>
-            <Box display="flex" justifyContent="space-evenly" mt="5">
-              <Box borderRadius={10} p={2}>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a href="https://youtubebysandesh.netlify.app/" target="_blank">
                   Deployed Link
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
-              <Box borderRadius={10} p={2}>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://github.com/sandeshjadhav5/choice-rice-2961/tree/main/nykaa-clone"
                   target="_blank"
@@ -368,8 +368,8 @@ const Projects = () => {
                 CSS
               </Badge>
             </Box>
-            <Box display="flex" justifyContent="space-evenly" mt="5">
-              <Box borderRadius={10} p={2}>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://idyllic-gecko-b72868.netlify.app/"
                   target="_blank"
@@ -378,7 +378,7 @@ const Projects = () => {
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
-              <Box borderRadius={10} p={2}>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://github.com/sandeshjadhav5/billowing-toothbrush-6922"
                   target="_blank"

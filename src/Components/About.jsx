@@ -76,8 +76,8 @@ const About = () => {
             data-aos-duration="600"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />I Have a strong
-            understanding of the full web development cycle, from planning and
-            design to deployment and maintainance.
+            understanding of full web development cycle from planning, design to
+            deployment & maintainance.
           </ListItem>
           <ListItem
             fontSize="20px"
