@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.8a946ac2.css",
-    "main.js": "/static/js/main.aed6c557.js",
+    "main.js": "/static/js/main.0cd79d3c.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
-    "static/media/sandyNewImg.png": "/static/media/sandyNewImg.db9d1db5e6aa4b8ed921.png",
     "static/media/myntra.png": "/static/media/myntra.3293e130f45a8dc2cb80.png",
+    "static/media/sandyNewImg.png": "/static/media/sandyNewImg.21e4fe0a84d502d9a9af.png",
     "static/media/nykaaProject.png": "/static/media/nykaaProject.7d4305bc8ab2190d2474.png",
     "static/media/sephora.png": "/static/media/sephora.908fda9fc0b5bcba6ad5.png",
     "static/media/youtubeClone.png": "/static/media/youtubeClone.ee5029465a2c30f2ae58.png",
@@ -12,11 +12,11 @@
     "static/media/sandesh_logo.png": "/static/media/sandesh_logo.5dcb1272ff65a478e5dd.png",
     "index.html": "/index.html",
     "main.8a946ac2.css.map": "/static/css/main.8a946ac2.css.map",
-    "main.aed6c557.js.map": "/static/js/main.aed6c557.js.map",
+    "main.0cd79d3c.js.map": "/static/js/main.0cd79d3c.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a946ac2.css",
-    "static/js/main.aed6c557.js"
+    "static/js/main.0cd79d3c.js"
   ]
 }
