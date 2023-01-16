@@ -280,9 +280,9 @@ const Projects = () => {
               </Box>
 
               <Box fontWeight="semibold">
-                An Ecommerce web application to buy Beauty and Makeup
-                products,created in five days in which i have built
-                Home,Products,Login,SignUp and Cart Page.
+                Youtube Clone Created using HTML,CSS,JAVASCRIPT in One day using
+                API Provided by Google in Which Home Page,Particular Video Page
+                and Search Functionality is implimented
               </Box>
             </Box>
 
