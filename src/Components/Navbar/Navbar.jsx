@@ -12,8 +12,7 @@ const Navbar = () => {
   const [isHamburger, setIsHamburger] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
   const [mode, setMode] = useState(true);
-  // const bg = useColorModeValue("red.500", "red.200");
-  // const color = useColorModeValue("white", "gray.800");
+
   const changeMode = () => {
     setMode(!mode);
     toggleColorMode();

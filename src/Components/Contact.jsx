@@ -17,11 +17,14 @@ import {
   useClipboard,
   useColorModeValue,
   VStack,
+  SimpleGrid,
 } from "@chakra-ui/react";
+import emailjs from "emailjs-com";
 import React from "react";
 import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from "react-icons/bs";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 import { PhoneIcon } from "@chakra-ui/icons";
+import { useState } from "react";
 const confetti = {
   light: {
     primary: "4299E1", // blue.400
@@ -40,6 +43,11 @@ const CONFETTI_DARK = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
 export default function Contact() {
   const { hasCopied, onCopy } = useClipboard("jadhavs932@gmail.com");
 
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  console.log(name, email, message);
+  const handleSendEmail = () => {};
   return (
     <>
       <Flex
@@ -160,8 +168,9 @@ export default function Contact() {
                         <InputLeftElement children={<BsPerson />} />
                         <Input
                           type="text"
-                          name="name"
+                          value={name}
                           placeholder="Your Name"
+                          onChange={(e) => setName(e.target.value)}
                         />
                       </InputGroup>
                     </FormControl>
@@ -173,8 +182,9 @@ export default function Contact() {
                         <InputLeftElement children={<MdOutlineEmail />} />
                         <Input
                           type="email"
-                          name="email"
+                          value={email}
                           placeholder="Your Email"
+                          onChange={(e) => setEmail(e.target.value)}
                         />
                       </InputGroup>
                     </FormControl>
@@ -183,10 +193,11 @@ export default function Contact() {
                       <FormLabel>Message</FormLabel>
 
                       <Textarea
-                        name="message"
                         placeholder="Your Message"
                         rows={6}
                         resize="none"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                       />
                     </FormControl>
 
@@ -197,7 +208,7 @@ export default function Contact() {
                       _hover={{
                         bg: "blue.500",
                       }}
-                      isFullWidth
+                      onClick={handleSendEmail}
                     >
                       Send Message
                     </Button>
@@ -208,7 +219,7 @@ export default function Contact() {
           </Box>
         </Box>
       </Flex>
-      <Flex
+      <SimpleGrid
         bg={useColorModeValue("gray.100", "gray.900")}
         align="center"
         justify="center"
@@ -216,16 +227,19 @@ export default function Contact() {
           backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
           backgroundAttachment: "fixed",
         }}
+        minChildWidth="250px"
+        pb="10"
       >
-        <Text m="20" fontWeight="bold">
+        <Text textAlign="center" fontWeight="bold">
           <Icon as={MdEmail} mr="2" />
           jadhavs932@gmail.com
         </Text>
-        <Text m="20" fontWeight="bold">
+
+        <Text textAlign="center" fontWeight="bold">
           <Icon as={PhoneIcon} mr="2" />
           7387741527
         </Text>
-      </Flex>
+      </SimpleGrid>
     </>
   );
 }

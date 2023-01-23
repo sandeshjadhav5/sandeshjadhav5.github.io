@@ -28,7 +28,7 @@ const Home = () => {
           <Image
             borderRadius="lg"
             width={{ lg: "450px", md: "400px" }}
-            src={profileImg}
+            src="https://i.imgur.com/0Xud5cc.png"
             alt="Sandesh Jadhav"
           />
         </Box>
@@ -69,14 +69,6 @@ const Home = () => {
               I'm a <span style={{ color: "#E53E3E" }} ref={textRef}></span>
             </Text>
           </Box>
-          {/* <Text
-            mt={2}
-            color="gray.500"
-            fontSize={{ xl: "20", lg: "20", md: "20", sm: "15", base: "12.5" }}
-            textAlign={{ sm: "center", md: "left", base: "center" }}
-          >
-            Full Stack Web Devloper based in India.
-          </Text> */}
         </Box>
       </Box>
     </div>
