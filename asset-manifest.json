@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a946ac2.css",
+    "main.css": "/static/css/main.10ddcaef.css",
     "main.js": "/static/js/main.9ca06510.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/myntra.png": "/static/media/myntra.3293e130f45a8dc2cb80.png",
@@ -11,12 +11,12 @@
     "static/media/bathBodyWorks.png": "/static/media/bathBodyWorks.6867c2805e72e0c3d04b.png",
     "static/media/sandesh_logo.png": "/static/media/sandesh_logo.5dcb1272ff65a478e5dd.png",
     "index.html": "/index.html",
-    "main.8a946ac2.css.map": "/static/css/main.8a946ac2.css.map",
+    "main.10ddcaef.css.map": "/static/css/main.10ddcaef.css.map",
     "main.9ca06510.js.map": "/static/js/main.9ca06510.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a946ac2.css",
+    "static/css/main.10ddcaef.css",
     "static/js/main.9ca06510.js"
   ]
 }
