@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import nykaa from "../Images/nykaaProject.png";
@@ -7,6 +8,7 @@ import sephora from "../Images/sephora.png";
 import myntra from "../Images/myntra.png";
 import youtubeClone from "../Images/youtubeClone.png";
 import bathBodyWorks from "../Images/bathBodyWorks.png";
+
 import { LinkIcon } from "@chakra-ui/icons";
 import {
   Heading,

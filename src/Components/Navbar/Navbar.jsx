@@ -6,6 +6,7 @@ import { NavHashLink } from "react-router-hash-link";
 import { Link } from "react-scroll";
 import { Icon } from "@chakra-ui/react";
 import { smooth } from "react-router-hash-link";
+
 import { HamburgerIcon, CloseIcon, SunIcon, MoonIcon } from "@chakra-ui/icons";
 import "./Navbar.css";
 const Navbar = () => {
@@ -90,6 +91,7 @@ const Navbar = () => {
         </Link>
         {/* to="/resume" */}
         <a
+          download=""
           className="Resume"
           href="https://drive.google.com/file/d/1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C/view?usp=share_link"
           target="_blank"
