@@ -18,11 +18,12 @@ import {
   useColorModeValue,
   VStack,
   SimpleGrid,
+  useToast,
 } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
 import React from "react";
 import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from "react-icons/bs";
-import { MdEmail, MdOutlineEmail } from "react-icons/md";
+import { MdEmail, MdLocalDining, MdOutlineEmail } from "react-icons/md";
 import { PhoneIcon } from "@chakra-ui/icons";
 import { useState } from "react";
 const confetti = {
@@ -42,12 +43,34 @@ const CONFETTI_DARK = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
 
 export default function Contact() {
   const { hasCopied, onCopy } = useClipboard("jadhavs932@gmail.com");
-
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  console.log(name, email, message);
-  const handleSendEmail = () => {};
+  const [loading, setIsLoading] = useState(false);
+  const toast = useToast();
+  const handleSendEmail = (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    console.log(e.target);
+    emailjs
+      .sendForm(
+        "service_z9ksl15",
+        "template_dybbz45",
+        e.target,
+        "uAdPIu86-wLeKDVvI"
+      )
+      .then((res) => {
+        console.log(res);
+        toast({
+          title: "Email Sent Successfully",
+          status: "success",
+          duration: 5000,
+          isClosable: true,
+        });
+        setIsLoading(false);
+      })
+      .catch((err) => {
+        console.log(err);
+        setIsLoading(false);
+      });
+  };
   return (
     <>
       <Flex
@@ -161,57 +184,62 @@ export default function Contact() {
                   shadow="base"
                 >
                   <VStack spacing={5}>
-                    <FormControl isRequired>
-                      <FormLabel>Name</FormLabel>
+                    <form onSubmit={handleSendEmail}>
+                      <FormControl isRequired>
+                        <FormLabel>Name</FormLabel>
 
-                      <InputGroup>
-                        <InputLeftElement children={<BsPerson />} />
-                        <Input
-                          type="text"
-                          value={name}
-                          placeholder="Your Name"
-                          onChange={(e) => setName(e.target.value)}
+                        <InputGroup>
+                          <InputLeftElement children={<BsPerson />} />
+                          <Input
+                            type="text"
+                            placeholder="Your Name"
+                            name="name"
+                          />
+                        </InputGroup>
+                      </FormControl>
+
+                      <FormControl isRequired>
+                        <FormLabel>Email</FormLabel>
+
+                        <InputGroup>
+                          <InputLeftElement children={<MdOutlineEmail />} />
+                          <Input
+                            type="email"
+                            name="email"
+                            placeholder="Your Email"
+                          />
+                        </InputGroup>
+                      </FormControl>
+
+                      <FormControl isRequired>
+                        <FormLabel>Message</FormLabel>
+
+                        <Textarea
+                          placeholder="Your Message"
+                          rows={6}
+                          resize="none"
+                          name="message"
                         />
-                      </InputGroup>
-                    </FormControl>
+                      </FormControl>
 
-                    <FormControl isRequired>
-                      <FormLabel>Email</FormLabel>
-
-                      <InputGroup>
-                        <InputLeftElement children={<MdOutlineEmail />} />
-                        <Input
-                          type="email"
-                          value={email}
-                          placeholder="Your Email"
-                          onChange={(e) => setEmail(e.target.value)}
-                        />
-                      </InputGroup>
-                    </FormControl>
-
-                    <FormControl isRequired>
-                      <FormLabel>Message</FormLabel>
-
-                      <Textarea
-                        placeholder="Your Message"
-                        rows={6}
-                        resize="none"
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                      />
-                    </FormControl>
-
-                    <Button
-                      colorScheme="blue"
-                      bg="blue.400"
-                      color="white"
-                      _hover={{
-                        bg: "blue.500",
-                      }}
-                      onClick={handleSendEmail}
-                    >
-                      Send Message
-                    </Button>
+                      <Button
+                        w="100%"
+                        isLoading={loading}
+                        type="submit"
+                        loadingText="Sending"
+                        colorScheme="blue"
+                        value="send"
+                        mt="2"
+                        bg="#38b2ac"
+                        color="white"
+                        _hover={{
+                          bg: "green.600",
+                          cursor: "pointer",
+                        }}
+                      >
+                        Send Email
+                      </Button>
+                    </form>
                   </VStack>
                 </Box>
               </Stack>
