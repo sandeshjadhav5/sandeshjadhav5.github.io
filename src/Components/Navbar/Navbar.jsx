@@ -90,13 +90,20 @@ const Navbar = () => {
           Contact
         </Link>
         {/* to="/resume" */}
+
         <a
-          download=""
           className="Resume"
-          href="https://drive.google.com/file/d/1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C/view?usp=share_link"
-          target="_blank"
+          href="https://drive.google.com/u/0/uc?id=1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C&export=download"
         >
-          Resume
+          <li
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C/view"
+              )
+            }
+          >
+            Resume
+          </li>
         </a>
       </ul>
       <button
