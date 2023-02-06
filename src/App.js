@@ -24,26 +24,13 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Box
-        w="60%"
-        m="auto"
-        mt="20"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="600"
-      >
+      <Box w="60%" m="auto" mt="20" data-aos="zoom-in" data-aos-duration="700">
         <Heading textAlign="center" mt="85" mb="25" color="#38B2AC">
           GitHub Calender
         </Heading>
         <GitHubCalendar username="sandeshjadhav5" />
       </Box>
-      <Box
-        w="80%"
-        m="auto"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="600"
-      >
+      <Box w="80%" m="auto" data-aos="zoom-in" data-aos-duration="700">
         <Heading textAlign="center" mt="35" mb="25" color="#38B2AC">
           GitHub Stats
         </Heading>

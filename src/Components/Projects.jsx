@@ -34,9 +34,8 @@ const Projects = () => {
         mb="30"
         textAlign="center"
         color="#48BB78"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="600"
+        data-aos="zoom-in"
+        data-aos-duration="700"
       >
         Projects
       </Heading>
@@ -53,9 +52,8 @@ const Projects = () => {
             borderWidth="2px"
             borderRadius="lg"
             overflow="hidden"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <Image src="https://i.imgur.com/w3NzfPt.png" alt="atozAmazon" />
 
@@ -122,9 +120,8 @@ const Projects = () => {
             borderWidth="2px"
             borderRadius="lg"
             overflow="hidden"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <Image src={bathBodyWorks} alt="bathBodyWorks" />
 
@@ -194,9 +191,8 @@ const Projects = () => {
             borderWidth="2px"
             borderRadius="lg"
             overflow="hidden"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <Image src={nykaa} alt="nykaa" />
 
@@ -265,9 +261,8 @@ const Projects = () => {
             borderWidth="2px"
             borderRadius="lg"
             overflow="hidden"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <Image src={myntra} alt="myntraa" />
 
@@ -331,9 +326,8 @@ const Projects = () => {
             borderWidth="2px"
             borderRadius="lg"
             overflow="hidden"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <Image src={sephora} alt="nykaa" />
 

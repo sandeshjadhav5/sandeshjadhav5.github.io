@@ -25,9 +25,8 @@ const About = () => {
         textAlign="center"
         color="#48BB78"
         mt={59}
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="600"
+        data-aos="zoom-in"
+        data-aos-duration="700"
       >
         About Me
       </Heading>
@@ -37,9 +36,8 @@ const About = () => {
             fontSize="20px"
             fontWeight="20px"
             lineHeight="2"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />
             As a MERN stack developer, I have proficiency in MongoDB, Express,
@@ -49,9 +47,8 @@ const About = () => {
             fontSize="20px"
             fontWeight="20px"
             lineHeight="2"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />
             Skilled in building dynamic and efficient web applications.
@@ -60,9 +57,8 @@ const About = () => {
             fontSize="20px"
             fontWeight="20px"
             lineHeight="2"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />
             Skilled in Front-end and Back-end Development
@@ -71,9 +67,8 @@ const About = () => {
             fontSize="20px"
             fontWeight="20px"
             lineHeight="2"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />I Have a strong
             understanding of full web development cycle from planning, design to
@@ -83,9 +78,8 @@ const About = () => {
             fontSize="20px"
             fontWeight="20px"
             lineHeight="2"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" /> Able to work
             independently and as part of a team
@@ -94,9 +88,8 @@ const About = () => {
             fontSize="20px"
             fontWeight="20px"
             lineHeight="2"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="600"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />
             Always looking for ways to improve and expand my knowledge and
