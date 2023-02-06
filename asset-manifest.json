@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.10ddcaef.css",
-    "main.js": "/static/js/main.66923b64.js",
+    "main.css": "/static/css/main.00af4290.css",
+    "main.js": "/static/js/main.61189b1f.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/myntra.png": "/static/media/myntra.3293e130f45a8dc2cb80.png",
     "static/media/sandyNewImg.png": "/static/media/sandyNewImg.21e4fe0a84d502d9a9af.png",
@@ -11,12 +11,12 @@
     "static/media/bathBodyWorks.png": "/static/media/bathBodyWorks.6867c2805e72e0c3d04b.png",
     "static/media/sandesh_logo.png": "/static/media/sandesh_logo.5dcb1272ff65a478e5dd.png",
     "index.html": "/index.html",
-    "main.10ddcaef.css.map": "/static/css/main.10ddcaef.css.map",
-    "main.66923b64.js.map": "/static/js/main.66923b64.js.map",
+    "main.00af4290.css.map": "/static/css/main.00af4290.css.map",
+    "main.61189b1f.js.map": "/static/js/main.61189b1f.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10ddcaef.css",
-    "static/js/main.66923b64.js"
+    "static/css/main.00af4290.css",
+    "static/js/main.61189b1f.js"
   ]
 }
