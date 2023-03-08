@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.00af4290.css",
-    "main.js": "/static/js/main.61189b1f.js",
+    "main.js": "/static/js/main.a160001e.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/myntra.png": "/static/media/myntra.3293e130f45a8dc2cb80.png",
-    "static/media/sandyNewImg.png": "/static/media/sandyNewImg.21e4fe0a84d502d9a9af.png",
     "static/media/nykaaProject.png": "/static/media/nykaaProject.7d4305bc8ab2190d2474.png",
     "static/media/sephora.png": "/static/media/sephora.908fda9fc0b5bcba6ad5.png",
     "static/media/youtubeClone.png": "/static/media/youtubeClone.ee5029465a2c30f2ae58.png",
@@ -12,11 +11,11 @@
     "static/media/sandesh_logo.png": "/static/media/sandesh_logo.5dcb1272ff65a478e5dd.png",
     "index.html": "/index.html",
     "main.00af4290.css.map": "/static/css/main.00af4290.css.map",
-    "main.61189b1f.js.map": "/static/js/main.61189b1f.js.map",
+    "main.a160001e.js.map": "/static/js/main.a160001e.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00af4290.css",
-    "static/js/main.61189b1f.js"
+    "static/js/main.a160001e.js"
   ]
 }
