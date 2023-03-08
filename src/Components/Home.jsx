@@ -2,7 +2,7 @@ import { Heading, Spacer, Box, Image, Text, Button } from "@chakra-ui/react";
 import React from "react";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import profileImg from "../Images/sandyNewImg.png";
+
 import { Link } from "react-router-dom";
 import { extendTheme } from "@chakra-ui/react";
 import AOS from "aos";
@@ -28,7 +28,7 @@ const Home = () => {
           <Image
             borderRadius="lg"
             width={{ lg: "450px", md: "400px" }}
-            src="https://i.imgur.com/0Xud5cc.png"
+            src="https://i.imgur.com/ltoxfkx.png"
             alt="Sandesh Jadhav"
           />
         </Box>
@@ -76,5 +76,3 @@ const Home = () => {
 };
 
 export default Home;
-
-//<img src={profileImg} className="profileImg" alt="profile" />

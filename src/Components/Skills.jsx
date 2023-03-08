@@ -25,9 +25,8 @@ const Skills = () => {
         mt="85"
         mb="25"
         color="#48BB78"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="600"
+        data-aos="zoom-in"
+        data-aos-duration="700"
       >
         Skills
       </Heading>
