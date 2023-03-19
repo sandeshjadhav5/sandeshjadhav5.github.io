@@ -55,74 +55,6 @@ const Projects = () => {
             data-aos="zoom-in"
             data-aos-duration="700"
           >
-            <Image src="https://i.imgur.com/w3NzfPt.png" alt="atozAmazon" />
-
-            <Box p="4">
-              <Box
-                mt="1"
-                textAlign="center"
-                fontWeight="bold"
-                lineHeight="tight"
-                noOfLines={1}
-              >
-                <Text color="#822727" fontSize="25">
-                  Amazon Website Clone
-                </Text>
-              </Box>
-
-              <Box fontWeight="semibold">
-                Clone of E-commerce Web Application Amazon which sells all kinds
-                of products.Created with team of Five members within Five days
-                using MERN Stack
-              </Box>
-            </Box>
-            <Box
-              p={2}
-              display="flex"
-              alignItems="center"
-              justifyContent="space-evenly"
-            >
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                MongoDB
-              </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                Express
-              </Badge>
-
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                React
-              </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                Node JS
-              </Badge>
-            </Box>
-            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
-              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
-                <a href="https://atozamazon.netlify.app/" target={"_blank"}>
-                  Deployed Link
-                  <Icon ml="2" as={LinkIcon} />
-                </a>
-              </Box>
-              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
-                <a
-                  href="https://github.com/Channa47/reflective-decision-5937"
-                  target="_blank"
-                >
-                  Github Link
-                  <Icon ml="2" as={LinkIcon} />
-                </a>
-              </Box>
-            </Box>
-          </Box>
-        </Box>
-        <Box m="auto">
-          <Box
-            borderWidth="2px"
-            borderRadius="lg"
-            overflow="hidden"
-            data-aos="zoom-in"
-            data-aos-duration="700"
-          >
             <Image src={bathBodyWorks} alt="bathBodyWorks" />
 
             <Box p="4">
@@ -177,6 +109,74 @@ const Projects = () => {
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   href="https://github.com/sandeshjadhav5/careless-tiger-9091"
+                  target="_blank"
+                >
+                  Github Link
+                  <Icon ml="2" as={LinkIcon} />
+                </a>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+        <Box m="auto">
+          <Box
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+          >
+            <Image src="https://i.imgur.com/w3NzfPt.png" alt="atozAmazon" />
+
+            <Box p="4">
+              <Box
+                mt="1"
+                textAlign="center"
+                fontWeight="bold"
+                lineHeight="tight"
+                noOfLines={1}
+              >
+                <Text color="#822727" fontSize="25">
+                  Amazon Website Clone
+                </Text>
+              </Box>
+
+              <Box fontWeight="semibold">
+                Clone of E-commerce Web Application Amazon which sells all kinds
+                of products.Created with team of Five members within Five days
+                using MERN Stack
+              </Box>
+            </Box>
+            <Box
+              p={2}
+              display="flex"
+              alignItems="center"
+              justifyContent="space-evenly"
+            >
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                MongoDB
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                Express
+              </Badge>
+
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                React
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                Node JS
+              </Badge>
+            </Box>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
+                <a href="https://atozamazon.netlify.app/" target={"_blank"}>
+                  Deployed Link
+                  <Icon ml="2" as={LinkIcon} />
+                </a>
+              </Box>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
+                <a
+                  href="https://github.com/Channa47/reflective-decision-5937"
                   target="_blank"
                 >
                   Github Link

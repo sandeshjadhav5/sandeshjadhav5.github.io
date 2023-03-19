@@ -17,7 +17,11 @@ const Home = () => {
       showCursor: true,
       backDelay: 2000,
       backSpeed: 70,
-      strings: ["Full Stack Developer", "Problem Solver"],
+      strings: [
+        "Full Stack Developer",
+        "Problem Solver",
+        "MERN Stack Developer",
+      ],
     });
   }, []);
   return (
