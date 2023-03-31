@@ -46,7 +46,6 @@ const Projects = () => {
         m="auto"
         fontWeight="bold"
       >
-        {" "}
         <Box m="auto">
           <Box
             borderWidth="2px"
@@ -102,7 +101,7 @@ const Projects = () => {
                   href="https://bathbodyworksbymasai.netlify.app/"
                   target={"_blank"}
                 >
-                  Deployed Link
+                  Deployed
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -111,7 +110,79 @@ const Projects = () => {
                   href="https://github.com/sandeshjadhav5/careless-tiger-9091"
                   target="_blank"
                 >
-                  Github Link
+                  Github
+                  <Icon ml="2" as={LinkIcon} />
+                </a>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+
+        <Box m="auto">
+          <Box
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+          >
+            <Image src="https://i.imgur.com/1TPdAo8.jpg" alt="classroomApp" />
+
+            <Box p="4">
+              <Box
+                mt="1"
+                textAlign="center"
+                fontWeight="bold"
+                lineHeight="tight"
+                noOfLines={1}
+              >
+                <Text color="#822727" fontSize="25">
+                  Classroom App
+                </Text>
+              </Box>
+
+              <Box fontWeight="semibold">
+                Webapp created for Client, where students can join class and
+                study online ,View contents inside class . Teachers can create
+                New Classes,Update and Delete new notes inside this classes.
+              </Box>
+            </Box>
+            <Box
+              p={2}
+              display="flex"
+              alignItems="center"
+              justifyContent="space-evenly"
+            >
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                MongoDB
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                Express
+              </Badge>
+
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                React
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                Node JS
+              </Badge>
+            </Box>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
+                <a
+                  href="https://you-can-test-classroom-app.netlify.app/"
+                  target={"_blank"}
+                >
+                  Deployed
+                  <Icon ml="2" as={LinkIcon} />
+                </a>
+              </Box>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
+                <a
+                  href="https://github.com/sandeshjadhav5/classroom-app"
+                  target="_blank"
+                >
+                  Github
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -170,7 +241,7 @@ const Projects = () => {
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a href="https://atozamazon.netlify.app/" target={"_blank"}>
-                  Deployed Link
+                  Deployed
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -179,7 +250,7 @@ const Projects = () => {
                   href="https://github.com/Channa47/reflective-decision-5937"
                   target="_blank"
                 >
-                  Github Link
+                  Github
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -240,7 +311,7 @@ const Projects = () => {
                   href="https://nykaawebsitebysandesh.netlify.app/"
                   target={"_blank"}
                 >
-                  Deployed Link
+                  Deployed
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -249,7 +320,7 @@ const Projects = () => {
                   href="https://github.com/sandeshjadhav5/choice-rice-2961/tree/main/nykaa-clone"
                   target="_blank"
                 >
-                  Github Link
+                  Github
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -305,7 +376,7 @@ const Projects = () => {
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a href="https://myntraclonemasai.netlify.app/" target="_blank">
-                  Deployed Link
+                  Deployed
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -314,7 +385,7 @@ const Projects = () => {
                   href="https://github.com/sandeshjadhav5/exotic-tail-7975"
                   target="_blank"
                 >
-                  Github Link
+                  Github
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -373,7 +444,7 @@ const Projects = () => {
                   href="https://idyllic-gecko-b72868.netlify.app/"
                   target="_blank"
                 >
-                  Deployed Link
+                  Deployed
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
@@ -382,7 +453,7 @@ const Projects = () => {
                   href="https://github.com/sandeshjadhav5/billowing-toothbrush-6922"
                   target="_blank"
                 >
-                  Github Link
+                  Github
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
