@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useSelector } from "react-redux";
 
 import {
   Grid,
@@ -15,11 +16,27 @@ import {
 } from "@chakra-ui/react";
 
 const Skills = () => {
+  const isDark = useSelector((state) => state.AppReducer.isDark);
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div id="skills">
+    <div
+      id="skills"
+      style={
+        isDark
+          ? {
+              backgroundColor: "#edf2f8",
+              paddingTop: "1rem",
+              paddingBottom: "2rem",
+            }
+          : {
+              backgroundColor: "#1a202c",
+              paddingTop: "1rem",
+              paddingBottom: "2rem",
+            }
+      }
+    >
       <Heading
         textAlign="center"
         mt="85"

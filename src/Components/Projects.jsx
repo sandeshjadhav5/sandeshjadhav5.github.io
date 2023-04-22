@@ -8,6 +8,7 @@ import sephora from "../Images/sephora.png";
 import myntra from "../Images/myntra.png";
 import youtubeClone from "../Images/youtubeClone.png";
 import bathBodyWorks from "../Images/bathBodyWorks.png";
+import { useSelector } from "react-redux";
 
 import { LinkIcon } from "@chakra-ui/icons";
 import {
@@ -23,6 +24,7 @@ import {
 import { Link } from "react-router-dom";
 
 const Projects = () => {
+  const isDark = useSelector((state) => state.AppReducer.isDark);
   useEffect(() => {
     AOS.init();
   }, []);

@@ -44,21 +44,28 @@ const Home = () => {
   }, []);
 
   return (
-    <div id="home" style={isDark ? { color: "blue" } : { color: "yellow" }}>
+    <div
+      id="home"
+      style={
+        isDark
+          ? { backgroundColor: "#edf2f8", height: "100vh" }
+          : { backgroundColor: "#1a202c" }
+      }
+    >
       <Spacer h={55} />
       <Box p={10} display={{ md: "flex" }}>
         <Box flexShrink={0}>
           <Image
             borderRadius="lg"
-            width={{ lg: "450px", md: "400px" }}
+            width={{ lg: "450px", md: "400px", sm: "500px", base: "500px" }}
             src="https://i.imgur.com/ltoxfkx.png"
             alt="Sandesh Jadhav"
           />
         </Box>
-        <Box mt={{ base: 4, md: 30, lg: 35, xl: 40 }} ml={{ md: 6, xl: 65 }}>
+        <Box mt={{ base: 20, md: 30, lg: 35, xl: 40 }} ml={{ md: 6, xl: 65 }}>
           <Text
             fontWeight="bold"
-            fontSize={{ xl: "55", lg: "45", md: "45", sm: "45", base: "25" }}
+            fontSize={{ xl: "55", lg: "45", md: "45", sm: "45", base: "50" }}
             letterSpacing="wide"
             color="#E53E3E"
             textAlign={{ sm: "center", md: "left", base: "center" }}
@@ -68,7 +75,7 @@ const Home = () => {
           <Text
             mt={1}
             display="block"
-            fontSize={{ xl: "40", lg: "40", md: "35", sm: "30", base: "15" }}
+            fontSize={{ xl: "40", lg: "40", md: "35", sm: "30", base: "25" }}
             lineHeight="normal"
             fontWeight="semibold"
             textAlign={{ sm: "center", md: "left", base: "center" }}

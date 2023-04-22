@@ -21,7 +21,7 @@ const Navbar = () => {
   const changeMode = () => {
     setMode(!mode);
     toggleColorMode();
-    dispatch(changeColorMode);
+    dispatch(changeColorMode());
   };
   return (
     <div className={mode ? "navbar-light" : "navbar-dark"}>
