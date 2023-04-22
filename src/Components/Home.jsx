@@ -1,14 +1,32 @@
-import { Heading, Spacer, Box, Image, Text, Button } from "@chakra-ui/react";
+import {
+  Heading,
+  Spacer,
+  Box,
+  Image,
+  Text,
+  Button,
+  background,
+  color,
+} from "@chakra-ui/react";
 import React from "react";
 import { init } from "ityped";
-import { useEffect, useRef } from "react";
+import { useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { useEffect, useState, useRef } from "react";
+import { changeColorMode } from "../Redux/AppReducer/action";
 
 import { Link } from "react-router-dom";
 import { extendTheme } from "@chakra-ui/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useSelector } from "react-redux";
 const Home = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+  const [mode, setMode] = useState(true);
   const textRef = useRef();
+
+  const isDark = useSelector((state) => state.AppReducer.isDark);
+  console.log("------->", isDark);
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -24,8 +42,9 @@ const Home = () => {
       ],
     });
   }, []);
+
   return (
-    <div id="home">
+    <div id="home" style={isDark ? { color: "blue" } : { color: "yellow" }}>
       <Spacer h={55} />
       <Box p={10} display={{ md: "flex" }}>
         <Box flexShrink={0}>

@@ -6,17 +6,22 @@ import { NavHashLink } from "react-router-hash-link";
 import { Link } from "react-scroll";
 import { Icon } from "@chakra-ui/react";
 import { smooth } from "react-router-hash-link";
+import { useSelector, useDispatch } from "react-redux";
 
 import { HamburgerIcon, CloseIcon, SunIcon, MoonIcon } from "@chakra-ui/icons";
 import "./Navbar.css";
+import { changeColorMode } from "../../Redux/AppReducer/action";
 const Navbar = () => {
   const [isHamburger, setIsHamburger] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
   const [mode, setMode] = useState(true);
+  const isDark = useSelector((state) => state.AppReducer.isDark);
+  const dispatch = useDispatch();
 
   const changeMode = () => {
     setMode(!mode);
     toggleColorMode();
+    dispatch(changeColorMode);
   };
   return (
     <div className={mode ? "navbar-light" : "navbar-dark"}>
