@@ -20,7 +20,7 @@ const About = () => {
     AOS.init();
   }, []);
   return (
-    <div id="about">
+    <div id="about" style={{ height: "100vh" }}>
       <Heading
         textAlign="center"
         color="#48BB78"

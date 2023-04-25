@@ -56,7 +56,7 @@ const Skills = () => {
         className="skillsDiv"
       >
         <Box
-          data-aos="zoom-in"
+          data-aos="fade-left"
           data-aos-duration="700"
           colSpan={1}
           w="100%"
@@ -78,7 +78,7 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
-          data-aos="zoom-in"
+          data-aos="fade-right"
           data-aos-duration="700"
           colSpan={1}
           w="100%"
@@ -363,7 +363,12 @@ const Skills = () => {
           </Text>
         </Box>
       </SimpleGrid>
-      {/* <Image src={html5} /> */}
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      {/* <div class="content">
+        <h1>Sliding Diagonals Background Effect</h1>
+      </div> */}
     </div>
   );
 };

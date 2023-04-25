@@ -30,11 +30,12 @@ const Home = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      backDelay: 2000,
-      backSpeed: 70,
+      backDelay: 1000,
+      backSpeed: 100,
       strings: [
         "Full Stack Developer",
         "Problem Solver",
@@ -54,7 +55,7 @@ const Home = () => {
     >
       <Spacer h={55} />
       <Box p={10} display={{ md: "flex" }}>
-        <Box flexShrink={0}>
+        <Box flexShrink={0} data-aos="fade-left" data-aos-duration="900">
           <Image
             borderRadius="lg"
             width={{ lg: "450px", md: "400px", sm: "500px", base: "500px" }}
@@ -62,7 +63,12 @@ const Home = () => {
             alt="Sandesh Jadhav"
           />
         </Box>
-        <Box mt={{ base: 20, md: 30, lg: 35, xl: 40 }} ml={{ md: 6, xl: 65 }}>
+        <Box
+          data-aos="fade-left"
+          data-aos-duration="900"
+          mt={{ base: 20, md: 30, lg: 35, xl: 40 }}
+          ml={{ md: 6, xl: 65 }}
+        >
           <Text
             fontWeight="bold"
             fontSize={{ xl: "55", lg: "45", md: "45", sm: "45", base: "50" }}
