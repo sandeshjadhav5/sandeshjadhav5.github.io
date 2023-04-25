@@ -29,7 +29,7 @@ const Projects = () => {
     AOS.init();
   }, []);
   return (
-    <div id="projects">
+    <div id="projects" style={{ marginTop: "2rem" }}>
       <Heading
         mt="95"
         m="auto"
@@ -210,7 +210,7 @@ const Projects = () => {
                 noOfLines={1}
               >
                 <Text color="#822727" fontSize="25">
-                  Amazon Website Clone
+                  atoz.in
                 </Text>
               </Box>
 

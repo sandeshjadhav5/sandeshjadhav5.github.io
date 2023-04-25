@@ -20,7 +20,7 @@ const About = () => {
     AOS.init();
   }, []);
   return (
-    <div id="about" style={{ height: "100vh" }}>
+    <div id="about" style={{ paddingBottom: "2rem" }}>
       <Heading
         textAlign="center"
         color="#48BB78"
@@ -31,7 +31,7 @@ const About = () => {
         About Me
       </Heading>
       <Box w="80%" m="auto" mt="10">
-        <List spacing={3}>
+        <List spacing={5}>
           <ListItem
             fontSize="20px"
             fontWeight="20px"

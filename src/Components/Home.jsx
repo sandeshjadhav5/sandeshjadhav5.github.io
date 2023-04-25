@@ -25,7 +25,6 @@ const Home = () => {
   const textRef = useRef();
 
   const isDark = useSelector((state) => state.AppReducer.isDark);
-  console.log("------->", isDark);
 
   useEffect(() => {
     AOS.init();
@@ -75,6 +74,11 @@ const Home = () => {
             letterSpacing="wide"
             color="#E53E3E"
             textAlign={{ sm: "center", md: "left", base: "center" }}
+            backgroundImage="url('https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80')"
+            backgroundPosition="center"
+            backgroundRepeat="repeat"
+            animation="animate 20s ease-in-out infinite"
+            bgClip="text"
           >
             Hi, I Am Sandesh Jadhav
           </Text>

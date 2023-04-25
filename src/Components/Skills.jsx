@@ -27,19 +27,18 @@ const Skills = () => {
         isDark
           ? {
               backgroundColor: "#edf2f8",
-              paddingTop: "1rem",
+              paddingTop: "2rem",
               paddingBottom: "2rem",
             }
           : {
               backgroundColor: "#1a202c",
-              paddingTop: "1rem",
+              paddingTop: "2rem",
               paddingBottom: "2rem",
             }
       }
     >
       <Heading
         textAlign="center"
-        mt="85"
         mb="25"
         color="#48BB78"
         data-aos="zoom-in"
@@ -56,7 +55,7 @@ const Skills = () => {
         className="skillsDiv"
       >
         <Box
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-aos-duration="700"
           colSpan={1}
           w="100%"
@@ -78,7 +77,7 @@ const Skills = () => {
           </Text>
         </Box>
         <Box
-          data-aos="fade-right"
+          data-aos="zoom-in"
           data-aos-duration="700"
           colSpan={1}
           w="100%"
@@ -363,12 +362,6 @@ const Skills = () => {
           </Text>
         </Box>
       </SimpleGrid>
-      <div className="bg"></div>
-      <div className="bg bg2"></div>
-      <div className="bg bg3"></div>
-      {/* <div class="content">
-        <h1>Sliding Diagonals Background Effect</h1>
-      </div> */}
     </div>
   );
 };
