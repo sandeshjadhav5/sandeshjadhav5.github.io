@@ -27,9 +27,14 @@
   position: fixed;
   z-index: 1000;
   height: 3.5rem;
-
   font-family: "Raleway", sans-serif;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  background: rgba(23, 23, 36, 0.55);
+  box-shadow: 5px 5px 5px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  border-bottom-left-radius: 1.8rem;
+  border-bottom-right-radius: 1.8rem;
 }
 
 .nav-links {

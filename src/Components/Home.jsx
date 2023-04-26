@@ -6,6 +6,7 @@ import {
   Text,
   Button,
   background,
+  Flex,
   color,
 } from "@chakra-ui/react";
 import React from "react";
@@ -74,14 +75,15 @@ const Home = () => {
             letterSpacing="wide"
             color="#E53E3E"
             textAlign={{ sm: "center", md: "left", base: "center" }}
+            bgClip="text"
             backgroundImage="url('https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80')"
             backgroundPosition="center"
             backgroundRepeat="repeat"
             animation="animate 20s ease-in-out infinite"
-            bgClip="text"
           >
-            Hi, I Am <span>Sandesh Jadhav</span>
+            Hi, I Am Sandesh Jadhav
           </Text>
+
           <Text
             mt={1}
             display="block"
