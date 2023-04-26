@@ -17,6 +17,24 @@
     rgba(155, 30, 101, 0.23) 0px 6px 6px;
 }
 
+#skills div div {
+  background: linear-gradient(-45deg, #fad0c4, #fdfbfb, #a8d7e9, #a18cd1);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  color: black;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 @keyframes animate {
   0%,
   100% {
