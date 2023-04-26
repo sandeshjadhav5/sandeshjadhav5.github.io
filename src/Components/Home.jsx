@@ -80,7 +80,7 @@ const Home = () => {
             animation="animate 20s ease-in-out infinite"
             bgClip="text"
           >
-            Hi, I Am Sandesh Jadhav
+            Hi, I Am <span>Sandesh Jadhav</span>
           </Text>
           <Text
             mt={1}

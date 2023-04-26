@@ -3,13 +3,19 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background-color: #edf2f8;
+  /* background-color: #edf2f8; */
   color: #1a202c;
   position: fixed;
   height: 3.5rem;
   z-index: 1000;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
   font-family: "Raleway", sans-serif;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 5px 5px 5px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  border-bottom-left-radius: 1.8rem;
+  border-bottom-right-radius: 1.8rem;
 }
 .navbar-dark {
   display: flex;
