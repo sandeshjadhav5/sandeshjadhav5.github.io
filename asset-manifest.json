@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b8223bc0.css",
-    "main.js": "/static/js/main.a95e06ca.js",
+    "main.js": "/static/js/main.be1a51cf.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/myntra.png": "/static/media/myntra.3293e130f45a8dc2cb80.png",
     "static/media/nykaaProject.png": "/static/media/nykaaProject.7d4305bc8ab2190d2474.png",
@@ -11,11 +11,11 @@
     "static/media/sandesh_logo.png": "/static/media/sandesh_logo.5dcb1272ff65a478e5dd.png",
     "index.html": "/index.html",
     "main.b8223bc0.css.map": "/static/css/main.b8223bc0.css.map",
-    "main.a95e06ca.js.map": "/static/js/main.a95e06ca.js.map",
+    "main.be1a51cf.js.map": "/static/js/main.be1a51cf.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8223bc0.css",
-    "static/js/main.a95e06ca.js"
+    "static/js/main.be1a51cf.js"
   ]
 }
