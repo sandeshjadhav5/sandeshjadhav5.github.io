@@ -267,7 +267,7 @@ const Projects = () => {
             data-aos="zoom-in"
             data-aos-duration="700"
           >
-            <Image src={nykaa} alt="nykaa" />
+            <Image src="https://i.imgur.com/4iBvGsE.png" alt="shopwave" />
 
             <Box p="4">
               <Box
@@ -278,14 +278,14 @@ const Projects = () => {
                 noOfLines={1}
               >
                 <Text color="#822727" fontSize="25">
-                  Nykaa Clone
+                  Shopwave Ecommerce
                 </Text>
               </Box>
 
               <Box fontWeight="semibold">
-                An Ecommerce web application to buy Beauty and Makeup
-                products,created in five days in which i have built
-                Home,Products,Login,SignUp and Cart Page.
+                An Ecommerce web application to buy Beauty and Makeup products,A
+                solo project created in five days using ReactJs , which has
+                home,login,signup,cart and products page
               </Box>
             </Box>
             <Box
@@ -310,7 +310,7 @@ const Projects = () => {
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
-                  href="https://nykaawebsitebysandesh.netlify.app/"
+                  href="https://shopwave-ecommerce.netlify.app/"
                   target={"_blank"}
                 >
                   Deployed
@@ -319,7 +319,7 @@ const Projects = () => {
               </Box>
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
-                  href="https://github.com/sandeshjadhav5/choice-rice-2961/tree/main/nykaa-clone"
+                  href="https://github.com/sandeshjadhav5/ShopWave-Ecommerce"
                   target="_blank"
                 >
                   Github
