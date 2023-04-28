@@ -88,7 +88,6 @@ const Home = () => {
           </Text>
 
           <Text
-            id="user-detail-intro"
             mt={1}
             display="block"
             fontSize={{ xl: "40", lg: "40", md: "35", sm: "30", base: "25" }}

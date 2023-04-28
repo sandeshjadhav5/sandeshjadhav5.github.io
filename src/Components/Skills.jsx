@@ -52,7 +52,7 @@ const Skills = () => {
         m="auto"
         gap={6}
         mb="50"
-        className="skillsDiv"
+        className="skills-card"
       >
         <Box
           data-aos="zoom-in"
@@ -64,7 +64,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://cdn.cdnlogo.com/logos/h/84/html.svg"
@@ -72,7 +72,7 @@ const Skills = () => {
             w="100px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             HTML
           </Text>
         </Box>
@@ -86,7 +86,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://static.cdnlogo.com/logos/c/18/css.svg"
@@ -94,7 +94,7 @@ const Skills = () => {
             w="72px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             CSS
           </Text>
         </Box>
@@ -108,7 +108,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://static.cdnlogo.com/logos/j/44/javascript.svg"
@@ -116,7 +116,7 @@ const Skills = () => {
             w="72px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             JavaScript
           </Text>
         </Box>
@@ -130,7 +130,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://static.cdnlogo.com/logos/r/63/react.svg"
@@ -138,7 +138,7 @@ const Skills = () => {
             w="82px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             React
           </Text>
         </Box>
@@ -152,7 +152,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://static.cdnlogo.com/logos/r/37/redux.svg"
@@ -160,7 +160,7 @@ const Skills = () => {
             w="82px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             Redux
           </Text>
         </Box>
@@ -174,7 +174,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://static.cdnlogo.com/logos/m/25/mongodb.svg"
@@ -182,7 +182,7 @@ const Skills = () => {
             w="80px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             MongoDB
           </Text>
         </Box>
@@ -196,7 +196,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/express.svg"
@@ -205,7 +205,7 @@ const Skills = () => {
             h="50px"
           />
 
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             Express
           </Text>
         </Box>
@@ -219,7 +219,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://static.cdnlogo.com/logos/n/79/node-js.svg"
@@ -227,7 +227,7 @@ const Skills = () => {
             w="80px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             Node JS
           </Text>
         </Box>
@@ -241,7 +241,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
@@ -249,7 +249,7 @@ const Skills = () => {
             w="80px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             Git
           </Text>
         </Box>
@@ -263,7 +263,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
@@ -272,7 +272,7 @@ const Skills = () => {
             h="50px"
           />
 
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             TypeScript
           </Text>
         </Box>
@@ -286,7 +286,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2022/04/cypress.png?fit=364%2C364&ssl=1"
@@ -294,7 +294,7 @@ const Skills = () => {
             w="70px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             Cypress
           </Text>
         </Box>
@@ -307,7 +307,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
@@ -315,7 +315,7 @@ const Skills = () => {
             w="60px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             Chakra UI
           </Text>
         </Box>
@@ -328,7 +328,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png?20210507000024"
@@ -336,7 +336,7 @@ const Skills = () => {
             w="60px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             BootStrap
           </Text>
         </Box>
@@ -349,7 +349,7 @@ const Skills = () => {
           alignItems="center"
           justifyContent="center"
           textAlign="center"
-          className="skillsLogo"
+          className="skills-card-img"
         >
           <Image
             src="https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png"
@@ -357,7 +357,7 @@ const Skills = () => {
             w="60px"
             h="50px"
           />
-          <Text mt={5} fontWeight={600}>
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
             npm
           </Text>
         </Box>

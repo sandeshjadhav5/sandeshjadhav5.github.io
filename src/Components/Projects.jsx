@@ -123,7 +123,7 @@ const Projects = () => {
           </Box>
         </Box>
 
-        <Box m="auto">
+        <Box m="auto" className="project-card">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -141,12 +141,12 @@ const Projects = () => {
                 lineHeight="tight"
                 noOfLines={1}
               >
-                <Text color="#822727" fontSize="25">
+                <Text className="project-title" color="#822727" fontSize="25">
                   Classroom App
                 </Text>
               </Box>
 
-              <Box fontWeight="semibold">
+              <Box className="project-description" fontWeight="semibold">
                 Webapp created for Client, where students can join class and
                 study online ,View contents inside class . Teachers can create
                 New Classes,Update and Delete new notes inside this classes.
@@ -157,6 +157,7 @@ const Projects = () => {
               display="flex"
               alignItems="center"
               justifyContent="space-evenly"
+              className="project-tech-stack"
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 MongoDB
@@ -175,6 +176,7 @@ const Projects = () => {
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-deployed-link"
                   href="https://you-can-test-classroom-app.netlify.app/"
                   target={"_blank"}
                 >
@@ -184,6 +186,7 @@ const Projects = () => {
               </Box>
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-github-link"
                   href="https://github.com/sandeshjadhav5/classroom-app"
                   target="_blank"
                 >
@@ -194,7 +197,7 @@ const Projects = () => {
             </Box>
           </Box>
         </Box>
-        <Box m="auto">
+        <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -212,12 +215,12 @@ const Projects = () => {
                 lineHeight="tight"
                 noOfLines={1}
               >
-                <Text color="#822727" fontSize="25">
+                <Text className="project-title" color="#822727" fontSize="25">
                   atoz.in
                 </Text>
               </Box>
 
-              <Box fontWeight="semibold">
+              <Box className="project-description" fontWeight="semibold">
                 Clone of E-commerce Web Application Amazon which sells all kinds
                 of products.Created with team of Five members within Five days
                 using MERN Stack
@@ -228,6 +231,7 @@ const Projects = () => {
               display="flex"
               alignItems="center"
               justifyContent="space-evenly"
+              className="project-tech-stack"
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 MongoDB
@@ -245,13 +249,18 @@ const Projects = () => {
             </Box>
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
-                <a href="https://atozamazon.netlify.app/" target={"_blank"}>
+                <a
+                  className="project-deployed-link"
+                  href="https://atozamazon.netlify.app/"
+                  target={"_blank"}
+                >
                   Deployed
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-github-link"
                   href="https://github.com/Channa47/reflective-decision-5937"
                   target="_blank"
                 >
@@ -262,7 +271,7 @@ const Projects = () => {
             </Box>
           </Box>
         </Box>
-        <Box m="auto">
+        <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -280,12 +289,12 @@ const Projects = () => {
                 lineHeight="tight"
                 noOfLines={1}
               >
-                <Text color="#822727" fontSize="25">
+                <Text className="project-title" color="#822727" fontSize="25">
                   Shopwave Ecommerce
                 </Text>
               </Box>
 
-              <Box fontWeight="semibold">
+              <Box className="project-description" fontWeight="semibold">
                 Shopwave is a Ecommmerce web app to buy Beauty and Makeup
                 products,A solo project created in five days using ReactJs ,
                 which has home,login,signup,cart and products page
@@ -296,6 +305,7 @@ const Projects = () => {
               display="flex"
               alignItems="center"
               justifyContent="space-evenly"
+              className="project-tech-stack"
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 REACT
@@ -313,6 +323,7 @@ const Projects = () => {
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-deployed-link"
                   href="https://shopwave-ecommerce.netlify.app/"
                   target={"_blank"}
                 >
@@ -322,6 +333,7 @@ const Projects = () => {
               </Box>
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-github-link"
                   href="https://github.com/sandeshjadhav5/ShopWave-Ecommerce"
                   target="_blank"
                 >
@@ -332,7 +344,7 @@ const Projects = () => {
             </Box>
           </Box>
         </Box>
-        <Box m="auto">
+        <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -350,12 +362,12 @@ const Projects = () => {
                 lineHeight="tight"
                 noOfLines={1}
               >
-                <Text color="#822727" fontSize="25">
+                <Text className="project-title" color="#822727" fontSize="25">
                   Myntra Website Clone
                 </Text>
               </Box>
 
-              <Box fontWeight="semibold">
+              <Box className="project-description" fontWeight="semibold">
                 An Ecommerce web application to buy Clothing and Fashion
                 Accessories products,created in five days in which with team of
                 Four Members in which i have created Producs Page
@@ -367,6 +379,7 @@ const Projects = () => {
               display="flex"
               alignItems="center"
               justifyContent="space-evenly"
+              className="project-tech-stack"
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 JAVASCRIPT
@@ -380,13 +393,18 @@ const Projects = () => {
             </Box>
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
-                <a href="https://myntraclonemasai.netlify.app/" target="_blank">
+                <a
+                  className="project-deployed-link"
+                  href="https://myntraclonemasai.netlify.app/"
+                  target="_blank"
+                >
                   Deployed
                   <Icon ml="2" as={LinkIcon} />
                 </a>
               </Box>
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-github-link"
                   href="https://github.com/sandeshjadhav5/exotic-tail-7975"
                   target="_blank"
                 >
@@ -397,7 +415,7 @@ const Projects = () => {
             </Box>
           </Box>
         </Box>
-        <Box m="auto">
+        <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -415,12 +433,12 @@ const Projects = () => {
                 lineHeight="tight"
                 noOfLines={1}
               >
-                <Text color="#822727" fontSize="25">
+                <Text className="project-title" color="#822727" fontSize="25">
                   Sephora Website Clone
                 </Text>
               </Box>
 
-              <Box fontWeight="semibold">
+              <Box className="project-description" fontWeight="semibold">
                 An Ecommerce web application to buy Beauty and Makeup
                 products,created in five days in which i have built
                 Home,Products,Login,SignUp and Cart Page.
@@ -432,6 +450,7 @@ const Projects = () => {
               display="flex"
               alignItems="center"
               justifyContent="space-evenly"
+              className="project-tech-stack"
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 JAVASCRIPT
@@ -446,6 +465,7 @@ const Projects = () => {
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-deployed-link"
                   href="https://idyllic-gecko-b72868.netlify.app/"
                   target="_blank"
                 >
@@ -455,6 +475,7 @@ const Projects = () => {
               </Box>
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-github-link"
                   href="https://github.com/sandeshjadhav5/billowing-toothbrush-6922"
                   target="_blank"
                 >

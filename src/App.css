@@ -3,7 +3,7 @@
   width: 300px;
 }
 
-.skillsLogo {
+.skills-card-img {
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -11,7 +11,7 @@
   color: gray;
 }
 
-.skillsLogo:hover {
+.skills-card-img:hover {
   padding: 20px;
   box-shadow: rgba(196, 69, 143, 0.5) 0px 10px 20px,
     rgba(155, 30, 101, 0.23) 0px 6px 6px;

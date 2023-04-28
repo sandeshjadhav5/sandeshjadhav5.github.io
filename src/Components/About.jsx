@@ -30,7 +30,7 @@ const About = () => {
       >
         About Me
       </Heading>
-      <Box w="80%" m="auto" mt="10">
+      <Box w="80%" m="auto" mt="10" id="user-detail-intro">
         <List spacing={5}>
           <ListItem
             fontSize="20px"
@@ -71,8 +71,8 @@ const About = () => {
             data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />I Have a strong
-            understanding of full web development cycle from planning, design to
-            deployment & maintainance.
+            understanding of tech and full web development cycle from planning,
+            design to deployment & maintainance.
           </ListItem>
           <ListItem
             fontSize="20px"
@@ -92,7 +92,7 @@ const About = () => {
             data-aos-duration="700"
           >
             <ListIcon as={CheckCircleIcon} color="green.500" />
-            Always looking for ways to improve and expand my knowledge and
+            Always looking for ways to improve and expand my knowledge and tech
             skills.
           </ListItem>
         </List>

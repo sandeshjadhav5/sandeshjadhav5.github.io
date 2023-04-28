@@ -97,6 +97,7 @@ const Navbar = () => {
         {/* to="/resume" */}
 
         <a
+          id="resume-link-1"
           className="nav-link resume"
           href="https://drive.google.com/u/0/uc?id=1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C&export=download"
         >
