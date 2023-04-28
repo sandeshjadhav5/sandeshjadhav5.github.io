@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      class="nav-link home"
+      className="nav-link home"
       style={
         isDark
           ? { backgroundColor: "#edf2f8", height: "100vh" }
@@ -58,6 +58,7 @@ const Home = () => {
       <Box p={10} display={{ md: "flex" }}>
         <Box flexShrink={0} data-aos="fade-left" data-aos-duration="900">
           <Image
+            className="home-img"
             borderRadius="lg"
             width={{ lg: "450px", md: "400px", sm: "500px", base: "500px" }}
             src="https://i.imgur.com/ltoxfkx.png"

@@ -45,11 +45,11 @@
 }
 
 .Home,
-.AboutMe,
-.Skills,
-.Projects,
-.Contact,
-.Resume {
+.nav-link.about,
+.nav-link.skills,
+.nav-link.projects,
+.nav-link.contact,
+.nav-link.resume {
   right: 10px;
   text-decoration: none;
   font-size: 1.5rem;
@@ -57,22 +57,23 @@
   margin: 0rem 0rem;
   cursor: pointer;
 }
+
 .Home:hover {
   color: maroon;
 }
-.AboutMe:hover {
+.nav-link.about:hover {
   color: maroon;
 }
-.Skills:hover {
+.nav-link.skills:hover {
   color: maroon;
 }
-.Projects:hover {
+.nav-link.projects:hover {
   color: maroon;
 }
-.Contact:hover {
+.nav-link.contact:hover {
   color: maroon;
 }
-.Resume:hover {
+.nav-link.resume:hover {
   color: green;
 }
 .mobile-menu-icon {
@@ -81,9 +82,6 @@
 
 @media screen and (max-width: 850px) {
   .logo {
-    /* display: flex;
-    position: absolute;
-    justify-content: center; */
     text-align: center;
     left: 200px;
   }
@@ -105,11 +103,11 @@
     width: 100%;
   }
   .Home,
-  .AboutMe,
-  .Skills,
-  .Projects,
-  .Contact,
-  .Resume {
+  .nav-link.about,
+  .nav-link.skills,
+  .nav-link.projects,
+  .nav-link.contact,
+  .nav-link.resume {
     display: block;
     text-transform: uppercase;
     color: red;

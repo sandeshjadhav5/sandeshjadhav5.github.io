@@ -48,21 +48,19 @@ const Navbar = () => {
         </Link>
         {/* to="#about"  */}
         <Link
-          class="nav-link about"
+          className="nav-link about"
           activeClass="active"
           to="about"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
-          className="AboutMe"
         >
           About
         </Link>
         {/* to="/#skills" */}
         <Link
-          class="nav-link skills"
-          className="Skills"
+          className="nav-link skills"
           activeClass="active"
           to="skills"
           spy={true}
@@ -74,8 +72,7 @@ const Navbar = () => {
         </Link>
         {/* to="/#projects" */}
         <Link
-          class="nav-link projects"
-          className="Projects"
+          className="nav-link projects"
           activeClass="active"
           to="projects"
           spy={true}
@@ -87,7 +84,7 @@ const Navbar = () => {
         </Link>
         {/* to="/#contact" */}
         <Link
-          className="Contact"
+          className="nav-link contact"
           activeClass="active"
           to="contact"
           spy={true}
@@ -100,8 +97,7 @@ const Navbar = () => {
         {/* to="/resume" */}
 
         <a
-          className="Resume"
-          class="nav-link resume"
+          className="nav-link resume"
           href="https://drive.google.com/u/0/uc?id=1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C&export=download"
         >
           <li

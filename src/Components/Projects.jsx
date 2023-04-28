@@ -48,7 +48,7 @@ const Projects = () => {
         m="auto"
         fontWeight="bold"
       >
-        <Box m="auto">
+        <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -66,12 +66,12 @@ const Projects = () => {
                 lineHeight="tight"
                 noOfLines={1}
               >
-                <Text color="#822727" fontSize="25">
+                <Text className="project-title" color="#822727" fontSize="25">
                   Bath & Body Works Website Clone
                 </Text>
               </Box>
 
-              <Box fontWeight="semibold">
+              <Box className="project-description" fontWeight="semibold">
                 An Ecommerce web application to buy Bath,Hygiene related
                 products, created in five days with team of Four members in
                 which i have built Products Page & Admin Side
@@ -82,6 +82,7 @@ const Projects = () => {
               display="flex"
               alignItems="center"
               justifyContent="space-evenly"
+              className="project-tech-stack"
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 REACT
@@ -100,6 +101,7 @@ const Projects = () => {
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-deployed-link"
                   href="https://bathbodyworksbymasai.netlify.app/"
                   target={"_blank"}
                 >
@@ -109,6 +111,7 @@ const Projects = () => {
               </Box>
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
+                  className="project-github-link"
                   href="https://github.com/sandeshjadhav5/careless-tiger-9091"
                   target="_blank"
                 >
