@@ -72,7 +72,7 @@ export default function Contact() {
       });
   };
   return (
-    <>
+    <div>
       <Flex
         mt="55"
         bg={useColorModeValue("gray.100", "gray.900")}
@@ -268,6 +268,6 @@ export default function Contact() {
           7387741527
         </Text>
       </SimpleGrid>
-    </>
+    </div>
   );
 }

@@ -20,7 +20,7 @@ const About = () => {
     AOS.init();
   }, []);
   return (
-    <div id="about" style={{ paddingBottom: "2rem" }}>
+    <div id="about" class="about section" style={{ paddingBottom: "2rem" }}>
       <Heading
         textAlign="center"
         color="#48BB78"
