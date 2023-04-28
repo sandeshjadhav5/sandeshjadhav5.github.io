@@ -283,9 +283,9 @@ const Projects = () => {
               </Box>
 
               <Box fontWeight="semibold">
-                An Ecommerce web application to buy Beauty and Makeup products,A
-                solo project created in five days using ReactJs , which has
-                home,login,signup,cart and products page
+                Shopwave is a Ecommmerce web app to buy Beauty and Makeup
+                products,A solo project created in five days using ReactJs ,
+                which has home,login,signup,cart and products page
               </Box>
             </Box>
             <Box

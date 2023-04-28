@@ -24,7 +24,7 @@ const Navbar = () => {
     dispatch(changeColorMode());
   };
   return (
-    <div className={mode ? "navbar-light" : "navbar-dark"}>
+    <div id="nav-menu" className={mode ? "navbar-light" : "navbar-dark"}>
       <Text fontSize={32} ml="5">
         SAN<span style={{ color: "red", fontSize: "2rem" }}>DESH</span>
       </Text>
