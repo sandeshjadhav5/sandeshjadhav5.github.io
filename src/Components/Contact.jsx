@@ -83,6 +83,7 @@ export default function Contact() {
           backgroundAttachment: "fixed",
         }}
         id="contact"
+        class="nav-link contact"
       >
         <Box
           borderRadius="lg"
@@ -129,7 +130,11 @@ export default function Contact() {
                     />
                   </Tooltip>
 
-                  <a href="https://github.com/sandeshjadhav5" target="_blank">
+                  <a
+                    id="contact-github"
+                    href="https://github.com/sandeshjadhav5"
+                    target="_blank"
+                  >
                     <IconButton
                       aria-label="github"
                       variant="ghost"
@@ -159,6 +164,7 @@ export default function Contact() {
                   </a>
 
                   <a
+                    id="contact-linkedin"
                     href="https://www.linkedin.com/in/sandesh-jadhav-0a2344202/"
                     target="_blank"
                   >
@@ -258,12 +264,12 @@ export default function Contact() {
         minChildWidth="250px"
         pb="10"
       >
-        <Text textAlign="center" fontWeight="bold">
+        <Text textAlign="center" fontWeight="bold" id="contact-email">
           <Icon as={MdEmail} mr="2" />
           jadhavs932@gmail.com
         </Text>
 
-        <Text textAlign="center" fontWeight="bold">
+        <Text textAlign="center" fontWeight="bold" id="contact-phone">
           <Icon as={PhoneIcon} mr="2" />
           7387741527
         </Text>

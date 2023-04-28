@@ -47,6 +47,7 @@ const Home = () => {
   return (
     <div
       id="home"
+      class="nav-link home"
       style={
         isDark
           ? { backgroundColor: "#edf2f8", height: "100vh" }
@@ -70,6 +71,7 @@ const Home = () => {
           ml={{ md: 6, xl: 65 }}
         >
           <Text
+            id="user-detail-name"
             fontWeight="bold"
             fontSize={{ xl: "55", lg: "45", md: "45", sm: "45", base: "50" }}
             letterSpacing="wide"
@@ -85,6 +87,7 @@ const Home = () => {
           </Text>
 
           <Text
+            id="user-detail-intro"
             mt={1}
             display="block"
             fontSize={{ xl: "40", lg: "40", md: "35", sm: "30", base: "25" }}
