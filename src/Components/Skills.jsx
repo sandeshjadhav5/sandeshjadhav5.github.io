@@ -47,7 +47,7 @@ const Skills = () => {
         Skills
       </Heading>
       <SimpleGrid
-        minChildWidth="140px"
+        minChildWidth={{ lg: "140px", md: "140px", sm: "140px", base: "100px" }}
         w="80%"
         m="auto"
         gap={6}

@@ -59,12 +59,19 @@ const Home = () => {
       className="nav-link home"
       style={
         isDark
-          ? { backgroundColor: "#edf2f8", height: "100vh" }
-          : { backgroundColor: "#1a202c" }
+          ? {
+              backgroundColor: "#edf2f8",
+              height: "100vh",
+              marginBottom: "1rem",
+            }
+          : { backgroundColor: "#1a202c", height: "100vh" }
       }
     >
       <Spacer h={55} />
-      <Box p={10} display={{ md: "flex" }}>
+      <Box
+        p={10}
+        display={{ lg: "flex", md: "flex", sm: "block", base: "inline" }}
+      >
         <Box flexShrink={0} data-aos="fade-left" data-aos-duration="900">
           <Image
             className="home-img"
@@ -77,13 +84,13 @@ const Home = () => {
         <Box
           data-aos="zoom-in"
           data-aos-duration="900"
-          mt={{ base: 20, md: 30, lg: 35, xl: 40 }}
+          mt={{ base: 20, sm: 10, md: 30, lg: 35, xl: 40 }}
           ml={{ md: 6, xl: 65 }}
         >
           <Text
             id="user-detail-name"
             fontWeight="bold"
-            fontSize={{ xl: "55", lg: "45", md: "45", sm: "45", base: "35" }}
+            fontSize={{ xl: "55", lg: "45", md: "45", sm: "40", base: "35" }}
             letterSpacing="wide"
             color="#E53E3E"
             textAlign={{ sm: "center", md: "left", base: "center" }}
@@ -99,7 +106,7 @@ const Home = () => {
           <Text
             mt={1}
             display="block"
-            fontSize={{ xl: "40", lg: "40", md: "35", sm: "30", base: "25" }}
+            fontSize={{ xl: "40", lg: "40", md: "35", sm: "25", base: "25" }}
             lineHeight="normal"
             fontWeight="semibold"
             textAlign={{ sm: "center", md: "left", base: "center" }}
@@ -123,11 +130,15 @@ const Home = () => {
               I'm a <span style={{ color: "#E53E3E" }} ref={textRef}></span>
             </Text>
           </Box>
-          <Box mt="1rem">
+          <Box mt="1rem" textAlign={{ lg: "left", md: "left", base: "center" }}>
             <Button
               id="resume-button-2"
               onClick={handleResume}
-              backgroundColor="#BEE3F8"
+              style={
+                isDark
+                  ? { backgroundColor: "#BEE3F8" }
+                  : { backgroundColor: "#1b223c", color: "white" }
+              }
             >
               Resume
               <DownloadIcon ml="2" />
