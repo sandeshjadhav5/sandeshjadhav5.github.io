@@ -24,7 +24,7 @@ const About = () => {
       <Heading
         textAlign="center"
         color="#48BB78"
-        mt={59}
+        mt={{ base: "58", sm: "40", md: "20", lg: "10" }}
         data-aos="zoom-in"
         data-aos-duration="700"
       >

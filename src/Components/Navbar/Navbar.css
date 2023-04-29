@@ -108,10 +108,22 @@
   .nav-link.projects,
   .nav-link.contact,
   .nav-link.resume {
-    display: block;
+    /* display: block;
     text-transform: uppercase;
     color: red;
     font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    transition: all 0.5s ease-out; */
+    display: block;
+    background-color: black;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.5rem;
+    border: solid 1px #1a202c;
     font-stretch: extra-expanded;
     text-align: center;
     padding: 15px;

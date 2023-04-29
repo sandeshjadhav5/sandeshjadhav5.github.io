@@ -42,14 +42,15 @@ const Projects = () => {
         Projects
       </Heading>
       <SimpleGrid
-        minChildWidth="320px"
+        minChildWidth={{ lg: "320px", md: "320px", sm: "320px", base: "280px" }}
         gap="35"
         w="80%"
         m="auto"
         fontWeight="bold"
       >
-        <Box className="project-card" m="auto">
+        <Box className="project-card" m="auto" alignContent="center">
           <Box
+            m="auto"
             borderWidth="2px"
             borderRadius="lg"
             overflow="hidden"
@@ -273,6 +274,7 @@ const Projects = () => {
         </Box>
         <Box className="project-card" m="auto">
           <Box
+            m="auto"
             borderWidth="2px"
             borderRadius="lg"
             overflow="hidden"
