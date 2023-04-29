@@ -12,6 +12,7 @@ import {
 import React from "react";
 import { init } from "ityped";
 import { useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { DownloadIcon } from "@chakra-ui/icons";
 import { useEffect, useState, useRef } from "react";
 import { changeColorMode } from "../Redux/AppReducer/action";
 
@@ -26,6 +27,14 @@ const Home = () => {
   const textRef = useRef();
 
   const isDark = useSelector((state) => state.AppReducer.isDark);
+
+  const handleResume = () => {
+    window.location.href =
+      "https://drive.google.com/u/0/uc?id=1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C&export=download";
+    window.open(
+      "https://drive.google.com/file/d/1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C/view"
+    );
+  };
 
   useEffect(() => {
     AOS.init();
@@ -66,7 +75,7 @@ const Home = () => {
           />
         </Box>
         <Box
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-aos-duration="900"
           mt={{ base: 20, md: 30, lg: 35, xl: 40 }}
           ml={{ md: 6, xl: 65 }}
@@ -74,7 +83,7 @@ const Home = () => {
           <Text
             id="user-detail-name"
             fontWeight="bold"
-            fontSize={{ xl: "55", lg: "45", md: "45", sm: "45", base: "50" }}
+            fontSize={{ xl: "55", lg: "45", md: "45", sm: "45", base: "35" }}
             letterSpacing="wide"
             color="#E53E3E"
             textAlign={{ sm: "center", md: "left", base: "center" }}
@@ -113,6 +122,16 @@ const Home = () => {
             >
               I'm a <span style={{ color: "#E53E3E" }} ref={textRef}></span>
             </Text>
+          </Box>
+          <Box mt="1rem">
+            <Button
+              id="resume-button-2"
+              onClick={handleResume}
+              backgroundColor="#BEE3F8"
+            >
+              Resume
+              <DownloadIcon ml="2" />
+            </Button>
           </Box>
         </Box>
       </Box>

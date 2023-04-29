@@ -18,6 +18,14 @@ const Navbar = () => {
   const isDark = useSelector((state) => state.AppReducer.isDark);
   const dispatch = useDispatch();
 
+  const handleResume = () => {
+    window.location.href =
+      "https://drive.google.com/u/0/uc?id=1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C&export=download";
+    window.open(
+      "https://drive.google.com/file/d/1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C/view"
+    );
+  };
+
   const changeMode = () => {
     setMode(!mode);
     toggleColorMode();
@@ -96,21 +104,9 @@ const Navbar = () => {
         </Link>
         {/* to="/resume" */}
 
-        <a
-          id="resume-link-1"
-          className="nav-link resume"
-          href="https://drive.google.com/u/0/uc?id=1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C&export=download"
-        >
-          <li
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1D_0EIwKGaVxiFy3_2DYsMQZ49pdmLT5C/view"
-              )
-            }
-          >
-            Resume
-          </li>
-        </a>
+        <Text id="resume-button-1" className="nav-link resume">
+          <li onClick={handleResume}>Resume</li>
+        </Text>
       </ul>
       <button
         className="mobile-menu-icon"
