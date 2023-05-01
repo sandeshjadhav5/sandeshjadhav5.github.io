@@ -48,7 +48,7 @@ const Projects = () => {
         m="auto"
         fontWeight="bold"
       >
-        <Box className="project-card" m="auto" alignContent="center">
+        <Box w={{}} className="project-card" m="auto" alignContent="center">
           <Box
             m="auto"
             borderWidth="2px"
