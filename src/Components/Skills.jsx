@@ -44,7 +44,7 @@ const Skills = () => {
         data-aos="zoom-in"
         data-aos-duration="700"
       >
-        Skills
+        Technical Skills
       </Heading>
       <SimpleGrid
         minChildWidth={{ lg: "140px", md: "140px", sm: "140px", base: "100px" }}
