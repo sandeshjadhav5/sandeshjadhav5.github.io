@@ -155,6 +155,28 @@ const Skills = () => {
           className="skills-card-img"
         >
           <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/archive/8/8e/20230404233502%21Nextjs-logo.svg"
+            m="auto"
+            w="82px"
+            h="50px"
+          />
+          <Text className="skills-card-name" mt={5} fontWeight={600}>
+            NextJs
+          </Text>
+        </Box>
+        <Box
+          data-aos="zoom-in"
+          data-aos-duration="700"
+          colSpan={1}
+          w="100%"
+          m="auto"
+          rounded="md"
+          alignItems="center"
+          justifyContent="center"
+          textAlign="center"
+          className="skills-card-img"
+        >
+          <Image
             src="https://static.cdnlogo.com/logos/r/37/redux.svg"
             m="auto"
             w="82px"
