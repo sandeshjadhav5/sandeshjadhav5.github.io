@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9def81b8.css",
-    "main.js": "/static/js/main.14150b62.js",
+    "main.css": "/static/css/main.5e1e4c84.css",
+    "main.js": "/static/js/main.7d847eb7.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/myntra.png": "/static/media/myntra.3293e130f45a8dc2cb80.png",
     "static/media/nykaaProject.png": "/static/media/nykaaProject.7d4305bc8ab2190d2474.png",
     "static/media/sephora.png": "/static/media/sephora.908fda9fc0b5bcba6ad5.png",
     "static/media/youtubeClone.png": "/static/media/youtubeClone.ee5029465a2c30f2ae58.png",
-    "static/media/bathBodyWorks.png": "/static/media/bathBodyWorks.6867c2805e72e0c3d04b.png",
     "static/media/sandesh_logo.png": "/static/media/sandesh_logo.5dcb1272ff65a478e5dd.png",
     "index.html": "/index.html",
-    "main.9def81b8.css.map": "/static/css/main.9def81b8.css.map",
-    "main.14150b62.js.map": "/static/js/main.14150b62.js.map",
+    "main.5e1e4c84.css.map": "/static/css/main.5e1e4c84.css.map",
+    "main.7d847eb7.js.map": "/static/js/main.7d847eb7.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9def81b8.css",
-    "static/js/main.14150b62.js"
+    "static/css/main.5e1e4c84.css",
+    "static/js/main.7d847eb7.js"
   ]
 }
