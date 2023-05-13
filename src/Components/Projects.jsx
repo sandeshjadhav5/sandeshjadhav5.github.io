@@ -7,7 +7,7 @@ import nykaa from "../Images/nykaaProject.png";
 import sephora from "../Images/sephora.png";
 import myntra from "../Images/myntra.png";
 import youtubeClone from "../Images/youtubeClone.png";
-import bathBodyWorks from "../Images/bathBodyWorks.png";
+
 import { useSelector } from "react-redux";
 
 import { LinkIcon } from "@chakra-ui/icons";
@@ -42,8 +42,8 @@ const Projects = () => {
         Projects
       </Heading>
       <SimpleGrid
-        minChildWidth={{ lg: "400px", md: "400px", sm: "320px", base: "280px" }}
-        gap="75"
+        minChildWidth={{ lg: "400px", md: "320px", sm: "320px", base: "280px" }}
+        gap={{ lg: "125", md: "55", sm: "55", base: "55" }}
         w="80%"
         m="auto"
         fontWeight="bold"
@@ -74,7 +74,7 @@ const Projects = () => {
               <Box className="project-description" fontWeight="semibold">
                 Clone of E-commerce Web Application Amazon which sells all kinds
                 of products.Created with team of Five members within Five days
-                using ReactJs , NodeJs , Express and MongoDB
+                using ReactJs , NodeJs , Express and MongoDB.
               </Box>
             </Box>
             <Box
@@ -206,7 +206,7 @@ const Projects = () => {
             data-aos="zoom-in"
             data-aos-duration="700"
           >
-            <Image src={bathBodyWorks} alt="bathBodyWorks" />
+            <Image src="https://i.imgur.com/JuUQmbt.jpg" alt="bathBodyWorks" />
 
             <Box p="4">
               <Box
@@ -217,14 +217,15 @@ const Projects = () => {
                 noOfLines={1}
               >
                 <Text className="project-title" color="#822727" fontSize="25">
-                  Bath & Body Works Website Clone
+                  Bath & Body Works
                 </Text>
               </Box>
 
               <Box className="project-description" fontWeight="semibold">
                 An Ecommerce web application to buy Bath,Hygiene related
                 products, created in five days with team of Four members in
-                which i have built Products Page & Admin Side
+                which i have built Products Page & Admin Side . Tech Stack used
+                is ReactJs, Redux, ChakraUi, Styled Components
               </Box>
             </Box>
             <Box
@@ -300,7 +301,8 @@ const Projects = () => {
               <Box className="project-description" fontWeight="semibold">
                 Shopwave is a Ecommmerce web app to buy Beauty and Makeup
                 products,A solo project created in five days using ReactJs ,
-                which has home,login,signup,cart and products page
+                which has home,login,signup,products.cart and payments page with
+                functionality
               </Box>
             </Box>
             <Box
@@ -347,7 +349,7 @@ const Projects = () => {
             </Box>
           </Box>
         </Box>
-        {/* <Box className="project-card" m="auto">
+        <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -417,7 +419,7 @@ const Projects = () => {
               </Box>
             </Box>
           </Box>
-        </Box> */}
+        </Box>
         {/* <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
