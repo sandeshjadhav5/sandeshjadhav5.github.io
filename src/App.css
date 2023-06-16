@@ -18,7 +18,7 @@
 }
 
 #skills div div {
-  background: linear-gradient(-45deg, #da564d, #fdfbfb, #c5d7df, #5f4e83);
+  background: linear-gradient(-45deg, #db766f, #fdfbfb, #c5d7df, #5f4e83);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   color: black;
