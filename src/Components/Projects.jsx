@@ -420,7 +420,7 @@ const Projects = () => {
             </Box>
           </Box>
         </Box>
-        {/* <Box className="project-card" m="auto">
+        <Box className="project-card" m="auto">
           <Box
             borderWidth="2px"
             borderRadius="lg"
@@ -428,7 +428,7 @@ const Projects = () => {
             data-aos="zoom-in"
             data-aos-duration="700"
           >
-            <Image src={sephora} alt="nykaa" />
+            <Image src="https://i.imgur.com/k5tfqY8.png" alt="ams" />
 
             <Box p="4">
               <Box
@@ -439,14 +439,14 @@ const Projects = () => {
                 noOfLines={1}
               >
                 <Text className="project-title" color="#822727" fontSize="25">
-                  Sephora Website Clone
+                  Attendance Management System
                 </Text>
               </Box>
 
               <Box className="project-description" fontWeight="semibold">
-                An Ecommerce web application to buy Beauty and Makeup
-                products,created in five days in which i have built
-                Home,Products,Login,SignUp and Cart Page.
+                This is an Attendance Management Web Application,where the
+                teacher can manage student's attendance,add students, generate
+                average attendances & create lectures
               </Box>
             </Box>
 
@@ -458,13 +458,17 @@ const Projects = () => {
               className="project-tech-stack"
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
-                JAVASCRIPT
+                MongoDB
               </Badge>
               <Badge borderRadius="full" px="2" colorScheme="teal">
-                HTML
+                Express
+              </Badge>
+
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                React
               </Badge>
               <Badge borderRadius="full" px="2" colorScheme="teal">
-                CSS
+                Node JS
               </Badge>
             </Box>
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
@@ -490,7 +494,7 @@ const Projects = () => {
               </Box>
             </Box>
           </Box>
-        </Box> */}
+        </Box>
       </SimpleGrid>
     </div>
   );
