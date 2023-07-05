@@ -449,7 +449,8 @@ const Projects = () => {
               <Box className="project-description" fontWeight="semibold">
                 An Ecommerce web application to buy Clothing and Fashion
                 Accessories products,created in five days in which with team of
-                Four Members in which i have created Producs Page
+                Four Members in which i have created Producs Page . Users can
+                view,add to cart and buy products.
               </Box>
             </Box>
 
