@@ -95,6 +95,9 @@ const Projects = () => {
                 React
               </Badge>
               <Badge borderRadius="full" px="2" colorScheme="teal">
+                Redux
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
                 Node JS
               </Badge>
             </Box>
@@ -102,7 +105,7 @@ const Projects = () => {
               <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
                 <a
                   className="project-deployed-link"
-                  href="https://atozamazon.netlify.app/"
+                  href="https://ato-z-amazon-in-clone.vercel.app/"
                   target={"_blank"}
                 >
                   Deployed
@@ -169,6 +172,9 @@ const Projects = () => {
                 React
               </Badge>
               <Badge borderRadius="full" px="2" colorScheme="teal">
+                Redux
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
                 Node JS
               </Badge>
             </Box>
@@ -187,6 +193,87 @@ const Projects = () => {
                 <a
                   className="project-github-link"
                   href="https://github.com/sandeshjadhav5/classroom-app"
+                  target="_blank"
+                >
+                  Github
+                  <Icon ml="2" as={LinkIcon} />
+                </a>
+              </Box>
+            </Box>
+          </Box>
+        </Box>{" "}
+        <Box w={{}} className="project-card" m="auto" alignContent="center">
+          <Box
+            m="auto"
+            borderWidth="2px"
+            borderRadius="lg"
+            overflow="hidden"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+          >
+            <Image src="https://i.imgur.com/k5tfqY8.png" alt="ams" />
+
+            <Box p="4">
+              <Box
+                mt="1"
+                textAlign="center"
+                fontWeight="bold"
+                lineHeight="tight"
+                noOfLines={1}
+              >
+                <Text className="project-title" color="#822727" fontSize="25">
+                  Attendance Management System
+                </Text>
+              </Box>
+
+              <Box className="project-description" fontWeight="semibold">
+                Attendance Management System is a Web App,were the
+                admin(teacher) can manage student's attendance , add students,
+                change the attendance status of students, generate average
+                attendances also can create new lectures
+              </Box>
+            </Box>
+            <Box
+              p={2}
+              display="flex"
+              alignItems="center"
+              justifyContent="space-evenly"
+              className="project-tech-stack"
+            >
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                REACT
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                REDUX
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                MONGODB
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                EXPRESS
+              </Badge>{" "}
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                NODEJS
+              </Badge>
+              <Badge borderRadius="full" px="2" colorScheme="teal">
+                CHARTJS
+              </Badge>
+            </Box>
+            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
+                <a
+                  className="project-deployed-link"
+                  href="https://a5-management-system.netlify.app/"
+                  target={"_blank"}
+                >
+                  Deployed
+                  <Icon ml="2" as={LinkIcon} />
+                </a>
+              </Box>
+              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
+                <a
+                  className="project-github-link"
+                  href="https://github.com/sandeshjadhav5/students-management-system"
                   target="_blank"
                 >
                   Github
@@ -263,82 +350,6 @@ const Projects = () => {
                 <a
                   className="project-github-link"
                   href="https://github.com/sandeshjadhav5/careless-tiger-9091"
-                  target="_blank"
-                >
-                  Github
-                  <Icon ml="2" as={LinkIcon} />
-                </a>
-              </Box>
-            </Box>
-          </Box>
-        </Box>
-        <Box w={{}} className="project-card" m="auto" alignContent="center">
-          <Box
-            m="auto"
-            borderWidth="2px"
-            borderRadius="lg"
-            overflow="hidden"
-            data-aos="zoom-in"
-            data-aos-duration="700"
-          >
-            <Image src="https://i.imgur.com/k5tfqY8.png" alt="ams" />
-
-            <Box p="4">
-              <Box
-                mt="1"
-                textAlign="center"
-                fontWeight="bold"
-                lineHeight="tight"
-                noOfLines={1}
-              >
-                <Text className="project-title" color="#822727" fontSize="25">
-                  Attendance Management System
-                </Text>
-              </Box>
-
-              <Box className="project-description" fontWeight="semibold">
-                Attendance Management System is a Web Application where the
-                admin(teacher) can manage student's attendance , add students,
-                change the attendance status of students, generate average
-                attendances also can create new lectures
-              </Box>
-            </Box>
-            <Box
-              p={2}
-              display="flex"
-              alignItems="center"
-              justifyContent="space-evenly"
-              className="project-tech-stack"
-            >
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                REACT
-              </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                REDUX
-              </Badge>
-
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                CHAKRA UI
-              </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                Rest API
-              </Badge>
-            </Box>
-            <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
-              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
-                <a
-                  className="project-deployed-link"
-                  href="https://a5-management-system.netlify.app/"
-                  target={"_blank"}
-                >
-                  Deployed
-                  <Icon ml="2" as={LinkIcon} />
-                </a>
-              </Box>
-              <Box borderRadius={10} p={2} _hover={{ color: "green" }}>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/sandeshjadhav5/students-management-system"
                   target="_blank"
                 >
                   Github

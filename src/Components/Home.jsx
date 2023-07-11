@@ -49,6 +49,7 @@ const Home = () => {
         "Full Stack Developer",
         "Problem Solver",
         "MERN Stack Developer",
+        "ReactJs Developer",
       ],
     });
   }, []);
@@ -84,7 +85,7 @@ const Home = () => {
         <Box
           data-aos="zoom-in"
           data-aos-duration="900"
-          mt={{ base: 20, sm: 10, md: 30, lg: 35, xl: 40 }}
+          mt={{ base: 20, sm: 10, md: 30, lg: 35, xl: 36 }}
           ml={{ md: 6, xl: 65 }}
         >
           <Text
