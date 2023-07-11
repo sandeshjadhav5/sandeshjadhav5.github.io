@@ -94,9 +94,7 @@ const Projects = () => {
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 React
               </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                Redux
-              </Badge>
+
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 Node JS
               </Badge>
@@ -171,9 +169,7 @@ const Projects = () => {
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 React
               </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                Redux
-              </Badge>
+
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 Node JS
               </Badge>
@@ -202,7 +198,7 @@ const Projects = () => {
             </Box>
           </Box>
         </Box>{" "}
-        <Box w={{}} className="project-card" m="auto" alignContent="center">
+        <Box className="project-card" m="auto">
           <Box
             m="auto"
             borderWidth="2px"
@@ -244,9 +240,6 @@ const Projects = () => {
                 REACT
               </Badge>
               <Badge borderRadius="full" px="2" colorScheme="teal">
-                REDUX
-              </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
                 MONGODB
               </Badge>
               <Badge borderRadius="full" px="2" colorScheme="teal">
@@ -254,9 +247,6 @@ const Projects = () => {
               </Badge>{" "}
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 NODEJS
-              </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                CHARTJS
               </Badge>
             </Box>
             <Box display="flex" justifyContent="space-evenly" mt="5" mb="3">
@@ -323,9 +313,6 @@ const Projects = () => {
             >
               <Badge borderRadius="full" px="2" colorScheme="teal">
                 REACT
-              </Badge>
-              <Badge borderRadius="full" px="2" colorScheme="teal">
-                REDUX
               </Badge>
 
               <Badge borderRadius="full" px="2" colorScheme="teal">
